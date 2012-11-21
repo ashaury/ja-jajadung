@@ -45,7 +45,7 @@
 
 /* Mosaic - Item */
 .sprocket-mosaic-item {display:block;margin: 0 -10px;z-index: 0;position: relative;}
-.sprocket-mosaic-item .sprocket-mosaic-image {width: 100%;position: relative;z-index: -1;}
+.sprocket-mosaic-item .sprocket-mosaic-image {width: 100%;position: relative;z-index: -1; border-radius:3px 3px 0 0;}
 .sprocket-mosaic-item .title {margin-bottom: 10px;}
 .sprocket-mosaic-item .sprocket-mosaic-title {margin: 12px 0;padding-bottom: 12px;font-size: 1.7em;}
 .sprocket-mosaic-head {padding: 0 10px;margin: -10px -10px 0;border-radius: 5px 5px 0 0;}
@@ -116,7 +116,7 @@
 .sprocket-mosaic-item .sprocket-mosaic-title a {line-height: 1.2em;}
 .sprocket-mosaic-item .sprocket-mosaic-infos {font-size: 13px;font-weight: bold;margin: 8px 0;}
 .sprocket-mosaic-item .sprocket-mosaic-text {margin: 0 0 15px 0;display: block;font-size: 110%;line-height: 1.4em;}
-.sprocket-mosaic-item {position: relative;}
+.sprocket-mosaic-item {position: relative; border-radius:3px;}
 .sprocket-mosaic-item .sprocket-padding {padding: 0 20px 20px 20px;}
 .sprocket-mosaic .sprocket-mosaic-order li {padding: 10px 12px;margin: 0 0 0 -1px;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-o-user-select: none;-ms-user-select: none;user-select: none;opacity: 0.6;-webkit-transition: opacity 0.1s ease-in;-moz-transition: opacity 0.1s ease-in;-o-transition: opacity 0.1s ease-in;-ms-transition: opacity 0.1s ease-in;transition: opacity 0.1s ease-in;}
 .sprocket-mosaic .sprocket-mosaic-filter li {padding: 10px 12px;margin: 0 -1px 0 0;cursor: pointer;-webkit-user-select: none;-moz-user-select: none;-o-user-select: none;-ms-user-select: none;user-select: none;opacity: 0.6;-webkit-transition: opacity 0.1s ease-in;-moz-transition: opacity 0.1s ease-in;-o-transition: opacity 0.1s ease-in;-ms-transition: opacity 0.1s ease-in;transition: opacity 0.1s ease-in;}
