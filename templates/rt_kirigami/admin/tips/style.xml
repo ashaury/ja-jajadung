@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<gantrytips>
+	
+	<tip label="Main Style" id="main"><![CDATA[<strong>Main Style</strong> configuration panel. Choose the Main body style, accent color, and background style that you would like to use.]]></tip>
+	
+	<tip label="Load Transition" id="loadtransition"><![CDATA[Enable or disable the page loading transition animation effects.]]></tip>
+		
+	<tip label="Font Settings" id="font"><![CDATA[A selection of fonts to be applied to your site's frontend is available from the <strong>Font Settings</strong> dropdown. It is also possible to set the <strong>Font Size</strong> according to your preference.]]></tip>
+	
+</gantrytips>

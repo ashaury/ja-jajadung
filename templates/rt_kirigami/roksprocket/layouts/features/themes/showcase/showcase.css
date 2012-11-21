@@ -1,0 +1,49 @@
+/**
+ * @version   $Id: showcase.css 3373 2012-09-07 02:00:10Z kevin $
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.gnu.org/licenses/gpl-2.0.html GNU/GPLv2 only
+ */
+
+/* Features - Layout Showcase - Core */
+.layout-showcase {position: relative;margin: -20px;}
+.layout-showcase:after {display: table;content: "";*zoom: 1;clear: both;}
+.layout-showcase ul {list-style: none !important;margin: 0;padding: 0;}
+
+/* Features - Layout Showcase - Content */
+.layout-showcase .sprocket-features-list {position: relative;overflow: hidden;padding: 0 !important;}
+.layout-showcase .sprocket-features-list li {position: absolute;top: 0;left: 0;opacity: 0;width: 100%;height: 100%;display: none;}
+.layout-showcase .sprocket-features-list li.active {position: static;height: auto;opacity: 1;display: block;}
+.layout-showcase .sprocket-features-title {font-size: 3em;margin-top: 0;}
+.layout-showcase .sprocket-features-title a {line-height: 1em;}
+.layout-showcase .sprocket-features-img-container {float: right;width: 55%;}
+.layout-showcase .sprocket-features-img-container img {max-width: 100%;}
+.layout-showcase .sprocket-features-content {float: left;width: 39%;padding: 20px;font-size: 1.2em;line-height: 1.6em;}
+.layout-showcase .sprocket-features-desc span {display: inline-block;position: relative;}
+.layout-showcase .sprocket-features-desc .readon {margin-top: 15px;font-size: 0.9em;line-height: 1.8em;}
+
+/* Features - Layout Showcase - Navigation */
+.layout-showcase .sprocket-features-arrows {position: absolute;width: 95px;height: 42px;bottom: 20px;right: 25px;z-index: 10;}
+.layout-showcase .sprocket-features-arrows .arrow {display: block;width: 40px;height: 40px;border-radius: 100%;cursor: pointer;z-index: 10;text-align: center;font-size: 3.2em;background-position: 0 -5px;float: right;color: #fff;margin-right: 4px;border: 1px solid transparent;}
+.layout-showcase .sprocket-features-arrows .arrow span {display: inline-block;width: 10px;height: 15px;background-repeat: no-repeat;margin: 13px;}
+.arrows-onhover .sprocket-features-arrows .arrow {opacity: 0;}
+.sprocket-features.arrows-onhover:hover .sprocket-features-arrows .arrow {opacity: 1;}
+.layout-showcase .sprocket-features-arrows .prev {left: 44%;}
+.layout-showcase .sprocket-features-arrows .next {right: 47.6%;}
+.layout-showcase .sprocket-features-arrows .next span {background-position: 1px -78px;}
+.layout-showcase .sprocket-features-arrows .prev span {background-position: -1px -124px;}
+.layout-showcase .sprocket-features-arrows .arrow:hover {background-position: 0 0;background-repeat: repeat-x;}
+.layout-showcase .sprocket-features-pagination {position: absolute;right: 125px;bottom: 28px;z-index: 10;padding: 0 !important;}
+.layout-showcase .sprocket-features-pagination-hidden {display: none;}
+.layout-showcase .sprocket-features-pagination li {display: inline-block;width: 12px;height: 12px;border-radius: 100%;margin: 0 2px;cursor: pointer;position: relative;}
+.layout-showcase .sprocket-features-pagination .active {width: 16px;height: 16px;margin-bottom: -2px;}
+.layout-showcase .sprocket-features-pagination .active span {display: none;}
+.layout-showcase .sprocket-features-pagination li span {width: 8px;height: 8px;display: block;border-radius: 100%;margin: 2px 1px 1px 2px;}
+.layout-showcase .sprocket-features-pagination li:after {content: "";position: absolute;top: 0;right: 0;left: 0;bottom: 0;}
+
+.layout-showcase .readon {font-weight: bold;position: relative;}
+.layout-showcase .readon span {padding-right: 20px;}
+.layout-showcase .readon span:after {content: '+';margin-left: 8px;font-size: 182%;font-weight: 200;position: absolute;top: -2px;right: -5px;}
+
+/* Features - Layout Showcase - Transitions */
+.layout-showcase .sprocket-features-pagination li, .layout-showcase .sprocket-features-arrows .arrow {-webkit-transition: opacity 0.2s ease-in;-moz-transition: opacity 0.2s ease-in;-o-transition: opacity 0.2s ease-in;-ms-transition: opacity 0.2s ease-in;transition: opacity 0.2s ease-in;}

@@ -1,0 +1,18 @@
+/**
+* @version   $Id: template-ie9.css 1447 2012-07-01 19:35:30Z josh $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Structure */
+.login-fields input {width: 154px;}
+.login-fields #remember, #contact-form dd #jform_contact_email_copy {border: none;width: inherit;}
+.button {outline: none;}
+.component-content form fieldset dt {width: 8em;}
+.rt-social-buttons #rt-facebook-btn .rt-social-text {margin-left: 31px;}
+
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	/* RokSprocket */
+	.sprocket-features .sprocket-features-container .sprocket-features-content {width: 38%;}
+}

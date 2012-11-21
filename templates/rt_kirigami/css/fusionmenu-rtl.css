@@ -1,0 +1,35 @@
+/**
+* @version   $Id: fusionmenu-rtl.css 490 2012-05-01 04:04:23Z btowles $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Root Items */
+body.rtl .menutop li.root {float: right;}
+body.rtl .menutop li.root > .item img {margin: 12px 0 12px 10px;}
+body.rtl .menutop li.parent.root .item span .daddyicon, body.rtl .menutop li.root .daddy.item .daddyicon {left: 8px;right: inherit;}
+body.rtl .menutop li.root > .item em {text-align: right;}
+body.rtl .menutop li.parent.root .item span {padding-right: 14px;padding-left: 22px;}
+
+/* Dropdown Surrounds */
+body.rtl .menutop ul {float: right;}
+body.rtl .menutop .fusion-js-subs {float: right;}
+
+/* Dropdown Items */
+body.rtl .menutop ul li {background-position: 96% -385px;}
+body.rtl .menutop ul li > .item span {margin-right: -9px;margin-left: 5px;}
+body.rtl .menutop ul li > .bullet {padding-left: 0;padding-right: 10px;}
+body.rtl .menutop li .item img {float: right;margin: 0 0 0 6px;}
+body.rtl .menutop li > .item .readon span {display: inherit;width: inherit;}
+body.rtl .menutop ul li.grouped-parent > .daddy span {background: none;}
+body.rtl .menutop ul li > .daddy span {background-position: 14px -141px;}
+
+/* No JS */
+body.rtl .menutop li.root:hover > .fusion-submenu-wrapper {left:inherit;right: 0;}
+body.rtl .menutop ul li:hover > .fusion-submenu-wrapper {left: inherit;right: 180px;}
+
+/* Grouped & Modules */
+body.rtl .fusion-grouped ol li .item {padding: 4px 6px 4px 14px;}
+body.rtl .fusion-grouped ol li span {padding-left: 0;padding-right: 10px;}
+body.rtl .menutop .fusion-grouped ol li {margin-left: inherit;margin-right: 0;}

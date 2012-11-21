@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<extension group="system" method="upgrade" type="plugin" version="1.6">
+	<name>System - RokBox</name>
+	<author>RocketTheme, LLC</author>
+	<creationDate>September 3, 2012</creationDate>
+	<copyright>(C) 2005 - 2012 RocketTheme, LLC. All rights reserved.</copyright>
+	<license>${licence}</license>
+	<authorEmail>support@rockettheme.com</authorEmail>
+	<authorUrl>http://www.rockettheme.com</authorUrl>
+	<version>1.3</version>
+	<description>RokBox System Plugin</description>
+	<files>
+		<filename>rokbox.js</filename>
+        <folder>jwplayer</folder>
+        <filename>index.html</filename>
+        <filename plugin="rokbox">rokbox.php</filename>
+        <folder>themes</folder>
+        <filename>checksums</filename>
+        <filename>CHANGELOG.php</filename>
+        <filename>RT-LICENSE.php</filename>
+    </files>
+    <config>
+		<fields name="params">
+			<fieldset name="basic">
+
+                <field default="light" description="Choose from Presets Themes. None of following options take effect when selected theme is different than 'custom'" label="Preset Themes" name="theme" type="list">
+					<option value="clean">Clean</option>
+                    <option value="light">Light</option>
+                    <option value="dark">Dark</option>
+                    <option value="mynxx">Mynxx</option>
+                    <option value="custom">Custom</option>
+                </field> 
+
+                <field default="sample" description="Theme name must not contain spaces. It refers to theme folder name" label="Custom Theme" name="custom-theme" type="text"/> 
+                <field default="0" description="If enabled RokBox will load themes configuration. If themes configuration don't exist or it is disabled, you can customize RokBox from 'Legacy Parameters' below" label="Use Legacy Parameters" name="custom-legacy" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field> 
+            </fieldset>
+            <fieldset label="Legacy Settings" name="legacy">
+                <field default="640" description="" label="RokBox Default Width" name="width" type="text"/> 
+                <field default="460" description="" label="RokBox Default Height" name="height" type="text"/> 
+                <field default="Quad.easeOut" description="any of the available MooTools transitions." label="Transition of RokBox Effect" name="transition" type="list">
+                    <option value="linear">linear</option>
+                    <option value="Quad.easeOut">Quad.easeOut</option>
+                    <option value="Quad.easeIn">Quad.easeIn</option>
+                    <option value="Quad.easeInOut">Quad.easeInOut</option>
+                    <option value="Cubic.easeOut">Cubic.easeOut</option>
+                    <option value="Cubic.easeIn">Cubic.easeIn</option>
+                    <option value="Cubic.easeInOut">Cubic.easeInOut</option>
+                    <option value="Quart.easeOut">Quart.easeOut</option>
+                    <option value="Quart.easeIn">Quart.easeIn</option>
+                    <option value="Quart.easeInOut">Quart.easeInOut</option>
+                    <option value="Quint.easeOut">Quint.easeOut</option>
+                    <option value="Quint.easeIn">Quint.easeIn</option>
+                    <option value="Quint.easeInOut">Quint.easeInOut</option>
+                    <option value="Expo.easeOut">Expo.easeOut</option>
+                    <option value="Expo.easeIn">Expo.easeIn</option>
+                    <option value="Expo.easeInOut">Expo.easeInOut</option>
+                    <option value="Circ.easeOut">Circ.easeOut</option>
+                    <option value="Circ.easeIn">Circ.easeIn</option>
+                    <option value="Circ.easeInOut">Circ.easeInOut</option>
+                    <option value="Sine.easeOut">Sine.easeOut</option>
+                    <option value="Sine.easeIn">Sine.easeIn</option>
+                    <option value="Sine.easeInOut">Sine.easeInOut</option>
+                    <option value="Back.easeOut">Back.easeOut</option>
+                    <option value="Back.easeIn">Back.easeIn</option>
+                    <option value="Back.easeInOut">Back.easeInOut</option>
+                    <option value="Bounce.easeOut">Bounce.easeOut</option>
+                    <option value="Bounce.easeIn">Bounce.easeIn</option>
+                    <option value="Bounce.easeInOut">Bounce.easeInOut</option>
+                    <option value="Elastic.easeOut">Elastic.easeOut</option>
+                    <option value="Elastic.easeIn">Elastic.easeIn</option>
+                    <option value="Elastic.easeInOut">Elastic.easeInOut</option>
+                </field> 
+                <field default="200" description="Duration in Milliseconds of the effect" label="Duration of RokBox Effect" name="duration" type="text"/> 
+                <field default="40" description="The Chase in px for Growl Effect" label="Chase" name="chase" type="text"/> 
+                <field default="quicksilver" description="Type of Effect for appearing and disappearing of RokBox" label="Type of Animation" name="effect" type="list">
+                    <option value="fade">Fade</option>
+                    <option value="quicksilver">QuickSilver</option>
+                    <option value="growl">Growl</option>
+                    <option value="explode">Explode</option>
+                </field> 
+                <field default="20" description="Borders width in pixel to take into account" label="Borders width" name="frame-border" type="text"/> 
+                <field default="0" description="Padding in pixel to take into account" label="Content Padding" name="content-padding" type="text"/> 
+                <field default="35" description="Height of arrows in pixel to take into account" label="Arrows Height" name="arrows-height" type="text"/> 
+                <field default="1" description="Enable or disable Captions" label="Show Captions" name="captions" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field> 
+                <field default="800" description="If above Captions are enabled, it will shows after the specified milliseconds" label="Captions Delay" name="captionsDelay" type="text"/> 
+                <field default="0" description="RokBox moves to the center of window when scrolling" label="Follow when Scrolling" name="scrolling" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field> 
+                <field default="1" description="Enable or disable Keys (esc, right, left) to interact via keyboard" label="Enable Keys" name="keyEvents" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field> 
+
+                <field default="#000000" description="Background color for the Overlay" label="Overlay Background" name="overlay_background" type="text"/> 
+                <field default="0.85" description="Opacity for the Overlay, goes from 0.1 to 1" label="Overlay Opacity" name="overlay_opacity" type="text"/> 
+                <field default="200" description="Duration for Overlay opening and closing effect" label="Overlay Duration" name="overlay_duration" type="text"/> 
+                <field default="Quad.easeInOut" description="any of the available MooTools transitions." label="Transition of Overlay Effect" name="overlay_transition" type="list">
+                    <option value="linear">linear</option>
+                    <option value="Quad.easeOut">Quad.easeOut</option>
+                    <option value="Quad.easeIn">Quad.easeIn</option>
+                    <option value="Quad.easeInOut">Quad.easeInOut</option>
+                    <option value="Cubic.easeOut">Cubic.easeOut</option>
+                    <option value="Cubic.easeIn">Cubic.easeIn</option>
+                    <option value="Cubic.easeInOut">Cubic.easeInOut</option>
+                    <option value="Quart.easeOut">Quart.easeOut</option>
+                    <option value="Quart.easeIn">Quart.easeIn</option>
+                    <option value="Quart.easeInOut">Quart.easeInOut</option>
+                    <option value="Quint.easeOut">Quint.easeOut</option>
+                    <option value="Quint.easeIn">Quint.easeIn</option>
+                    <option value="Quint.easeInOut">Quint.easeInOut</option>
+                    <option value="Expo.easeOut">Expo.easeOut</option>
+                    <option value="Expo.easeIn">Expo.easeIn</option>
+                    <option value="Expo.easeInOut">Expo.easeInOut</option>
+                    <option value="Circ.easeOut">Circ.easeOut</option>
+                    <option value="Circ.easeIn">Circ.easeIn</option>
+                    <option value="Circ.easeInOut">Circ.easeInOut</option>
+                    <option value="Sine.easeOut">Sine.easeOut</option>
+                    <option value="Sine.easeIn">Sine.easeIn</option>
+                    <option value="Sine.easeInOut">Sine.easeInOut</option>
+                    <option value="Back.easeOut">Back.easeOut</option>
+                    <option value="Back.easeIn">Back.easeIn</option>
+                    <option value="Back.easeInOut">Back.easeInOut</option>
+                    <option value="Bounce.easeOut">Bounce.easeOut</option>
+                    <option value="Bounce.easeIn">Bounce.easeIn</option>
+                    <option value="Bounce.easeInOut">Bounce.easeInOut</option>
+                    <option value="Elastic.easeOut">Elastic.easeOut</option>
+                    <option value="Elastic.easeIn">Elastic.easeIn</option>
+                    <option value="Elastic.easeInOut">Elastic.easeInOut</option>
+                </field> 
+
+                <field default="true" description="Auto play movies when supported" label="AutoPlay" name="autoplay" type="radio">
+                    <option value="false">JNO</option>
+                    <option value="true">JYES</option>
+                </field> 
+                <field default="0" description="Starts playing YouTube movies" label="YouTube AutoPlay" name="ytautoplay" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field> 
+                <field default="0" description="Enables YouTube HD Quality" label="YouTube High Quality (HD)" name="ythighquality" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field> 
+                <field default="false" description="Show or hide controllers when supported" label="Controller" name="controller" type="radio">
+                    <option value="false">JNO</option>
+                    <option value="true">JYES</option>
+                </field> 
+                <field default="#f3f3f3" description="Set background color of movies types that support it (ie, quicktime)" label="Background Color" name="bgcolor" type="text"/> 
+                <field default="00adef" description="Set Vimeo Color. Hex color does not have to start with hash (#)" label="Vimeo Color" name="vimeoColor" type="text"/> 
+                <field default="0" description="Show or hide Vimeo Portrait" label="Vimeo Portrait" name="vimeoPortrait" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field> 
+                <field default="0" description="Show or hide Vimeo Title" label="Vimeo Title" name="vimeoTitle" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field> 
+                <field default="1" description="Show or hide Vimeo Fullscreen button" label="Vimeo Fullscreen" name="vimeoFullScreen" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field> 
+                <field default="0" description="Show or hide Vimeo Author line" label="Vimeo Byline" name="vimeoByline" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field> 
+            </fieldset>
+        </fields>
+    </config>
+</extension>

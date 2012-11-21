@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<form>
+ 	<config>
+		<fields name="params">
+            <fieldset name="splitmenu" label="Splitmenu Menu Options" addfieldpath="/modules/mod_roknavmenu/fields">
+                <field name="splitmenu_menu_entry_type" type="radio" default="normal" label="Menu Item Type"
+                       description="Select as a normal menu item or display a module in the menu items place">
+                    <option value="normal">Normal</option>
+                    <option value="module">Module</option>
+                </field>
+                <field name="splitmenu_menu_module" type="modules" label="Module"/>
+                <field name="splitmenu_item_subtext" type="text" default="" label="Subtext Line" description="You can put a second line here"/>
+            </fieldset>
+        </fields>
+ 	</config>
+</form>

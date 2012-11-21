@@ -1,0 +1,11 @@
+/**
+* @version   $Id: template-ie10.css 2076 2012-08-01 00:07:36Z kevin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+.main-body-light h2, .main-body-light .title {text-shadow: 0 2px 1px rgba(0,0,0,0.1);}
+.main-body-dark h2, .main-body-dark .title {text-shadow: 0 2px 1px rgba(0,0,0,0.1);}
+.main.promo1 {text-shadow: 1px 2px 1px rgba(255, 255, 255, 0.8);}
+.main-bg-chrome .ribbon, .main-bg-wall .ribbon, .main-bg-lines .ribbon, .main-bg-diamond .ribbon, .main-bg-sphere .ribbon, .main-bg-chrome .ribbon span, .main-bg-wall .ribbon span, .main-bg-lines .ribbon span, .main-bg-diamond .ribbon span, .main-bg-sphere .ribbon span {text-shadow: 1px 2px 1px rgba(0, 0, 0, 0.8);}

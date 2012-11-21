@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="plugin" group="content" version="1.6.0" method="upgrade">
+	<name>Content - RokSocialButtons</name>
+    <creationDate>April 2, 2012</creationDate>
+    <author>RocketTheme, LLC</author>
+    <authorEmail>support@rockettheme.com</authorEmail>
+    <authorUrl>http://www.rockettheme.com</authorUrl>
+    <copyright>(C) 2005 - 2012 RocketTheme, LLC. All rights reserved.</copyright>
+    <license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+    <version>1.1</version>
+	<description>RokSocialButtons Content Plugin.  Use format {socialbuttons} in your article to display the social buttons in your article</description>
+	<files>
+		<filename plugin="roksocialbuttons">roksocialbuttons.php</filename>
+        <folder>assets/</folder>
+	</files>
+    <config>
+        <fields name="params">
+            <fieldset name="basic">
+                <field name="addthis_id" type="text" default="" label="AddThis ID" description="Insert your AddThis ID to enable tracking and analytics.  Sign-up for a free account at http://www.addthis.com" />
+                <field name="enable_twitter" type="list" default="1" label="Twitter" description="Enable or Disable the Twitter button">
+                    <option value="1">Enabled</option>
+                    <option value="0">Disabled</option>
+                </field>
+                <field name="enable_facebook" type="list" default="1" label="Facebook" description="Enable or Disable the Facebook button">
+                    <option value="1">Enabled</option>
+                    <option value="0">Disabled</option>
+                </field>
+                <field name="enable_google" type="list" default="1" label="Google" description="Enable or Disable the Google button">
+                    <option value="1">Enabled</option>
+                    <option value="0">Disabled</option>
+                </field>
+                <field name="prepend_text" type="text" default="" label="Prepend Text" description="Text you can put in front of the share buttons" />
+                <field name="extra_class" type="text" default="" label="Extra CSS Class" description="A space separated list of CSS classnames to add to the div that surrounds the buttons" />
+            </fieldset>
+        </fields>
+    </config>
+</extension>

@@ -1,0 +1,15 @@
+/**
+* @version   $Id: error.css 3373 2012-09-07 02:00:10Z kevin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+.rt-error-box {margin: 0 auto;padding: 20px;}
+.rt-error-box > div {padding: 20px;border-radius: 5px;}
+.rt-menubar {display: none;}
+#rt-logo {margin: 0 auto;}
+.rt-error-box .error-title {font-size: 7em;}
+.rt-error-box .error-message {color: #C50000;}
+.rt-error-box .rt-error-container {float: left;}
+.rt-error-box .rt-error-image {height: auto;max-width: 100%;float: right;}

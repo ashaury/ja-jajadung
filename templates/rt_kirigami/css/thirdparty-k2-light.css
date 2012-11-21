@@ -1,0 +1,89 @@
+/**
+ * @version   $Id: thirdparty-k2-light.css 1391 2012-06-30 09:03:22Z josh $
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* K2 Headers */
+ #k2Container h2 a, #k2Container h3 a {color: #313439;}
+
+/* K2 Font Controls */
+div.itemToolbar ul li a#fontDecrease img, div.itemToolbar ul li a#fontIncrease img {background-image: url(../images/light/arrows.png);}
+div.itemToolbar ul li a#fontDecrease img:hover, div.itemToolbar ul li a#fontIncrease img:hover {background-color: #fff;}
+
+/* K2 Edit */
+span.catItemAddLink a, span.userItemAddLink a, span.userItemEditLink a, span.catItemEditLink a, span.itemEditLink a {border: 1px solid rgba(0,0,0,0.2);box-shadow: inset 0 1px 3px rgba(0,0,0,0.15);background-image: url(../images/light/readon.png);color: #333;text-shadow: 1px 1px 1px rgba(225,225,225,0.4);background-color: transparent;}
+span.catItemAddLink a:hover, span.userItemAddLink a:hover, span.userItemEditLink a:hover, span.catItemEditLink a:hover, span.itemEditLink a:hover {color: #fff;}
+
+/* K2 Readon */
+#k2Container .button, .k2UserBlock .button, span.catItemAddLink a, span.userItemAddLink a, span.userItemEditLink a, span.catItemEditLink a, span.itemEditLink a, #k2Container .itemCommentsForm .button {color: #fff !important;text-shadow: 0 -1px 1px rgba(0,0,0,0.5);border: 1px solid rgba(225,225,225,0.3);border-top-color: rgba(225,225,225,0.6);box-shadow: 0 0 0 1px rgba(0,0,0,0.4);background-image: url(../images/light/readon.png);}
+#k2Container .button:hover, .k2UserBlock .button:hover, span.catItemAddLink a:hover, span.userItemAddLink a:hover, span.userItemEditLink a:hover, span.catItemEditLink a:hover, span.itemEditLink a:hover {color: #fff;text-shadow: 0 -1px 1px rgba(0,0,0,0.5);}
+#k2Container .button:active, .k2UserBlock .button:active, span.catItemAddLink a:active, span.userItemAddLink a:active, span.userItemEditLink a:active, span.catItemEditLink a:active, span.itemEditLink a:active {box-shadow: 0 0 0 1px rgba(0,0,0,0.4);}
+
+/* K2 Tags */
+div.k2TagCloudBlock a {color: #7B8181;}
+
+/* K2 Arrow Items */
+#k2Container .groupLinks .catItemTitle a, div.k2UserBlock ul.k2UserBlockActions li a, div.k2LatestCommentsBlock ul li span.lcComment {padding-left: 12px;background: url(../images/light/arrows.png) 2px -66px no-repeat;font-size: 13px;}
+
+/* K2 IMG Tags */
+.itemListView .catItemImage img, #k2Container .itemImage img, #k2Container .authorResponse img, #k2Container .userItemImageBlock img, #k2Container .genericItemImageBlock img, .k2UsersBlock .ubUserAvatar img,.k2LatestCommentsBlock ul li .lcAvatar img,.k2Avatar img, div.k2ItemsBlock ul li div.moduleItemIntrotext a.moduleItemImage img, div.subCategory a.subCategoryImage img, span.tagItemImage img, div.userBlock img, span.latestItemImage img, span.tagItemImage img, div.tagItemIntroText img, div.latestItemsUser img, div.latestItemIntroText img, div.k2ItemsBlock ul li a.moduleItemAuthorAvatar img, div.latestItemsCategoryImage img,div.itemAuthorBlock img.itemAuthorAvatar  {border: none;background: none;}
+
+/* K2 Categories */
+#k2Container  div.latestItemsCategory, #k2Container .itemListCategory, #k2Container .userBlock, #k2Container .subCategory {background-color: transparent;border: 1px solid transparent;}
+#k2Container  div.latestItemsCategory:after, #k2Container .itemListCategory:after, #k2Container .userBlock:after, #k2Container .subCategory:after {border: 1px solid white;}
+#k2Container div.latestItemsCategory h2 a, #k2Container .itemListCategory h2 a, #k2Container .subCategory h2 a, #k2Container .itemListCategory h2 {color: #ffffff;font-size: 20px !important;}
+ 
+/* K2 Item Links */
+#k2Container .userItemLinks, #k2Container .itemLinks, #k2Container .catItemLinks, #k2Container .latestItemLinks, #k2Container div.itemAuthorBlock, div.k2ItemsBlock ul li div.moduleItemTags {border-top: 5px solid transparent;}
+
+/* K2 Comments */
+#k2Container div.itemComments ul.itemCommentsList li img {border: 1px solid #E5E5E5;}
+#k2Container div.itemComments ul.itemCommentsList li {border-bottom: 1px solid #E5E5E5;}
+#k2Container div.itemComments ul.itemCommentsList li.odd {background: #FBFBFB;}
+
+/* K2 Inputboxes */
+#k2Container .inputbox, div.k2SearchBlock form input.inputbox, div.k2LoginBlock fieldset.input p input {border: 1px solid #CCC;}
+
+/* K2 Item View */
+#k2Container div.itemIntroText {color: #444;font-size: 100%;font-weight: normal;font-style: italic;line-height: 24px;padding: 4px 0 0px 0;}
+#k2Container div.itemContentFooter {border: none;}
+#k2Container div.itemAuthorBlock {padding: 10px;}
+#k2Container div.tagItemView {border: none;}
+
+/* K2 Category */
+#k2Container .catItemRatingBlock span {color: #999;}
+
+/* K2 Items */
+#k2Container .itemDateModified {border: 0;color: #999;}
+#k2Container .itemRatingBlock span {color: #999;}
+
+/* K2 Items - Author / Related */
+#k2Container .itemAuthorLatest ul li a, #k2Container .itemRelated ul li a {background: url(../images/light/arrows.png) 2px -66px no-repeat;font-size: 100%;}
+#k2Container .itemAuthorLatest {float: left;margin-right: 20px;}
+div.itemHeader span.itemAuthor, div.itemToolbar ul li span.itemTextResizerTitle, #k2Container .catItemView .catItemAuthor, #k2Container span.itemAuthor, #k2Container div.catItemHeader span.catItemAuthor, div.k2ItemsBlock ul li div.moduleItemAuthor {color: #999;}
+
+/* K2 User */
+#k2Container .userItemDateCreated {color: #999;}
+
+/* K2 Generic */
+#k2Container .genericItemDateCreated {color: #999;}
+
+/* K2 Users Module */
+.k2UsersBlock ul.ubUserItems li a {background: url(../images/light/arrows.png) 2px -66px no-repeat;font-size: 100%;}
+
+/* K2 Categories Module */
+.k2CategoriesListBlock ul li a {background: url(../images/light/arrows.png) 4px -66px no-repeat;color: #707070;}
+div.k2CategoriesListBlock ul li.activeCategory > a {border: 1px solid rgba(0,0,0,0.2);box-shadow: inset 0 1px 3px rgba(0,0,0,0.15);color: #333;text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.4);background-color: transparent;background-position: 9px -61px;color: #fff;}
+
+/* K2 Calendar Module */
+.k2CalendarBlock .calendarToday, .k2CalendarBlock .calendarDateLinked a:hover {background: url(../images/light/readon.png);}
+table.calendar tr td.calendarDayName {color: white;text-shadow: 0 -1px 1px rgba(0, 0, 0, 0.5);}
+
+/* K2 Archives */
+div.k2ArchivesBlock ul li a {background: url(../images/light/arrows.png) 2px -66px no-repeat;font-size: 100%;}
+
+/* K2 Login */
+div.k2LoginBlock ul li a {background: url(../images/light/arrows.png) 2px -66px no-repeat;font-size: 100%;}
+

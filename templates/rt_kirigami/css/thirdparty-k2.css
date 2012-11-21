@@ -1,0 +1,346 @@
+/**
+ * @version   $Id: thirdparty-k2.css 1396 2012-06-30 18:16:20Z josh $
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* K2 Global */
+#k2Container {position: relative;}
+#k2Container.itemView, div.itemContentFooter, div.itemToolbar ul li, div.itemNavigation {border: 0 none;padding-left: 0;}
+#k2Container .k2FeedIcon {position: absolute;top: 5px;right: 0;}
+#k2Container .componentheading, div.k2ItemsBlock ul li a.moduleItemTitle, #k2Container .catItemReadMore, #k2Container .moduleItemReadMore, #k2Container .userItemReadMore, #k2Container .tagItemReadMore,#k2Container .genericItemReadMore, #k2Container .latestItemReadMore, span.catItemAddLink, span.userItemAddLink, span.userItemEditLink, span.catItemEditLink, span.itemEditLink {font-family: Helvetica,Arial,sans-serif;font-weight: normal;font-style: normal;}
+#k2Container a {font-size: 100%;}
+#k2Container .itemListSubCategories h3 {font-size: 150%;}
+
+/* K2 Headers */
+#k2Container h2 {margin: 0 -20px 15px -20px;padding: 0 20px;position: relative;font-size: 2.5em;line-height: 1em;font-family: "Trebuchet MS", sans-serif;font-weight: bold;}
+#k2Container h2:before {position: absolute;content: '';width: 5px;height: 22px;left: 0;top: 3px;}
+#k2Container h3 {font-family: Helvetica,Arial,sans-serif;font-size: 21px;}
+
+
+/* K2 Rating Controls */
+.itemRatingList, .itemRatingList a:hover, .itemRatingList .itemCurrentRating {background-image: url(../images/light/transparent-star.png);}
+
+/* K2 Font Controls */
+div.itemToolbar ul li a#fontDecrease img, div.itemToolbar ul li a#fontIncrease img {background: none ;border-radius:3px;-moz-transition: background-color 0.3s linear;-o-transition: background-color 0.3s linear;-webkit-transition: background-color 0.3s linear;transition: background-color 0.3s linear;background-repeat: no-repeat;}
+div.itemToolbar ul li a#fontIncrease img {background-position: 4px -214px;}
+div.itemToolbar ul li a#fontDecrease img {background-position: 4px 4px;}
+
+/* K2 Readon */
+span.catItemAddLink, span.userItemAddLink, span.userItemEditLink, span.userItemEditLink, span.catItemEditLink, span.itemEditLink {display: inline-block;margin: 0;padding: 1px 1px 0 1px;overflow: visible;border-radius: 3px;border: 0;border-image: initial;margin-top: 10px;} 
+#k2Container .button, .k2UserBlock .button, span.catItemAddLink a, span.userItemAddLink a, span.userItemEditLink a, span.catItemEditLink a, span.itemEditLink a {padding: 5px 12px;display: inline-block;line-height: 1.8em;background-repeat: repeat-x;position: relative;font-size:12px !important;-webkit-transition: background-color 0.1s ease-in;-moz-transition: background-color 0.1s ease-in;-o-transition: background-color 0.1s ease-in;-ms-transition: background-color 0.1s ease-in;transition: background-color 0.1s ease-in;}
+span.catItemAddLink, span.userItemAddLink {margin-top: 2px;margin-bottom: 5px;}
+
+#k2Container .catItemReadMore, #k2Container .moduleItemReadMore, #k2Container .userItemReadMore, #k2Container .tagItemReadMore,#k2Container .genericItemReadMore, #k2Container .latestItemReadMore, #k2Container .k2ReadMore {font-size: 12px;padding-left: 1px;}
+
+/* K2 Tags */
+div.catItemTagsBlock ul.catItemTags li, div.itemTagsBlock ul.itemTags li, div.userItemTagsBlock ul.userItemTags li, div.latestItemTagsBlock ul.latestItemTags li {font-weight: normal;}
+div.catItemTagsBlock ul.catItemTags li a, div.itemTagsBlock ul.itemTags li a, div.userItemTagsBlock ul.userItemTags li a, div.latestItemTagsBlock ul.latestItemTags li a, div.k2ItemsBlock ul li div.moduleItemTags a, div.k2ItemsBlock ul li div.moduleItemTags a:hover {font-weight: normal !important;-moz-transition: none;-o-transition: none;-webkit-transition: none;transition: none;}
+div.k2TagCloudBlock a {-moz-transition: none;-o-transition: none;-webkit-transition: none;transition: none;}
+
+/* K2 IMG Tags */
+.itemListView .catItemImage img, #k2Container .itemListCategory img, #k2Container .itemImage img, #k2Container .authorResponse img, #k2Container .userItemImageBlock img, #k2Container .genericItemImageBlock img, .k2UsersBlock .ubUserAvatar img,.k2LatestCommentsBlock ul li .lcAvatar img,.k2Avatar img, div.k2ItemsBlock ul li div.moduleItemIntrotext a.moduleItemImage img, div.subCategory a.subCategoryImage img, span.tagItemImage img, div.userBlock img, span.latestItemImage img, span.tagItemImage img, div.tagItemIntroText img, div.latestItemsUser img, div.latestItemIntroText img, div.k2ItemsBlock ul li a.moduleItemAuthorAvatar img, div.latestItemsCategoryImage img, div.subCategory a.subCategoryImage:hover img {padding: 0;border: 0 none; background: none;max-width: 100% !important;}
+#k2Container .itemListCategory img, div.subCategory a.subCategoryImage img, div.latestItemsCategoryImage img {margin-left: -5px;margin-right: -5px;max-width: 100% !important;}
+div.latestItemImageBlock {float: none;}
+
+/* K2 Categories & Subcategories Format */
+div.latestItemsCategory, #k2Container .itemListCategory, #k2Container .userBlock, #k2Container .subCategory {padding: 10px 15px 0 15px;position: relative;}
+#k2Container  div.latestItemsCategory:after, #k2Container .itemListCategory:after, #k2Container .userBlock:after, #k2Container .subCategory:after {content: "";position: absolute;top: 0;bottom: 0;left: 0;right: 0;z-index: 1;}
+#k2Container div.latestItemsCategory h2, #k2Container .itemListCategory h2, #k2Container .subCategory h2 {padding-top: 10px;padding-bottom: 8px;margin: 0 -15px;margin-bottom: 0;position: relative;z-index: 2;}
+#k2Container div.latestItemsCategory h2 a, #k2Container .itemListCategory h2 a, #k2Container .subCategory h2 a, #k2Container .itemListCategory h2 {font-weight: normal;position: relative;z-index: 1000;}
+#k2Container div.latestItemsCategory p, #k2Container .itemListCategory p, #k2Container .subCategory p {margin: 0;}
+
+/* K2 Video Block Reset */
+div.itemVideoBlock, div.latestItemVideoBlock, div.catItemVideoBlock {background: none; border: 0 none;}
+
+/* K2 Author */
+#k2Container .catItemView .catItemAuthor,#k2Container span.itemAuthor,#k2Container div.catItemHeader span.catItemAuthor, div.k2ItemsBlock ul li div.moduleItemAuthor  {display: block;padding-left: 2px;}
+
+/* K2 Date */
+div.catItemHeader span.catItemDateCreated, div.itemHeader span.itemDateCreated, div.k2ItemsBlock ul li span.moduleItemDateCreated   {padding-left: 2px;}
+
+/* K2 Item Links */
+#k2Container .itemLinks, #k2Container .catItemLinks, #k2Container .latestItemLinks, div.k2ItemsBlock ul li div.moduleItemTags  {padding: 8px;position: relative;padding-left: 2px;margin-bottom: 0;margin-top: -15px;}
+
+/* K2 Item Links */
+#k2Container div.itemSocialSharing {margin-bottom: 20px;clear: both;}
+
+/* K2 Block Items */
+div.k2LatestCommentsBlock ul li:after, #k2Container .itemCommentsList li:after {content: "";height: 10px;margin-bottom: -17px;display: block;}
+
+/* K2 Comments */
+#k2Container div.itemComments {background: none;border: 0 none;}
+
+/* K2 Item View */
+#k2Container.itemListView {padding: 0;}
+.k2FeedIcon {float: right;}
+.catItemHeader {padding-bottom: 0;}
+div.catItemBody {padding: 0;}
+
+/* K2 Breadcrumbs */
+div.k2BreadcrumbsBlock {white-space: normal;word-wrap: break-word;}
+div.k2BreadcrumbsBlock span.bcTitle {white-space: nowrap;}
+
+/* K2 Leading Item */
+#itemListLeading {background: none;}
+#itemListLeading {margin: -5px -10px 0 -10px;}
+#itemListLeading .groupLeading {padding: 10px;padding-bottom: 0;}
+
+/* K2 Inputbox */
+#k2Container .inputbox, div.k2SearchBlock form input.inputbox, div.k2LoginBlock fieldset.input p input {padding: 4px !important;border-radius: 4px !important;line-height: 1.6em !important;outline: 0 !important;}
+div.k2LoginBlock form input#modlgn_remember {width: 10px;}
+
+/* K2 Category */
+div.catItemImageBlock {padding: 0;margin: 0;}
+#k2Container .catItemImage {background: none;}
+#k2Container .catItemHitsBlock {background: none;}
+#k2Container .catItemCategory {background: none;}
+#k2Container .subCategory {background: none;border: none;}
+#k2Container div.subCategory a.subCategoryImage img,#k2Container div.subCategory a.subCategoryImage img:hover {text-align: center;padding: 0;margin: 0;}
+#k2Container .itemListCategory {background: none;border: none;margin: 0 0 20px 0;}
+#k2Container .itemListCategory img {border: 0;background: none;margin-right: 10px;display: block;margin: 0 auto;float: inherit;}
+#k2Container .itemListCategory h2 {margin-top: 7px;}
+#k2Container h3.catItemTitle {margin: 0;font-weight: normal;font-size: 170%;line-height: 130%;}
+#k2Container .catItemImageBlock {text-align: left;margin-bottom: 0px;padding-left: 0;padding-top:10px;}
+#k2Container .catItemImage {display: inline-block;}
+#k2Container .catItemImage img {display: block;margin: 0;}
+#k2Container .catItemLinks {margin-top: 10px;}
+#k2Container .catItemHitsBlock {border: 0;padding: 4px 4px 0 0;}
+#k2Container .catItemCategory {border: 0;padding: 4px 4px 0 0;}
+#k2Container .catItemCategory span {line-height: 24px;display: inline-block;padding-left: 0;font-size: 100%;font-weight: normal;width: 85px;}
+#k2Container .catItemTagsBlock {border: 0;padding-left: 0;}
+#k2Container .catItemTagsBlock span {font-size: 100%;font-weight: normal;margin-bottom: 6px;width: 85px;display: inline-block;}
+#k2Container .catItemCommentsLink {line-height: 24px;display: inline-block;padding-left: 0;margin-left: 0px;font-size: 100%;}
+#k2Container #itemListLinks {border: none;background: none;}
+#k2Container span.catItemAddLink {text-align: left;z-index: 100;position: relative;}
+#k2Container .itemListSubCategories {margin: 0 -4px;}
+#k2Container .itemListSubCategories h3 {margin-left: 15px;}
+#k2Container .subCategory {margin: 0 5px 16px 5px;}
+#k2Container div.subCategory h2 {margin-top: 21px;text-align:center;}
+#k2Container div.catItemRatingBlock {margin-top: 4px;}
+#k2Container div.catItemRatingBlock span {padding: 2px 4px 0 0;}
+#k2Container div.catItemIntroText {padding-bottom: 0;}
+#k2Container div.itemContainer {margin-bottom: 20px;}
+#k2Container div.itemContainerLast {margin-bottom: 0;}
+#k2Container span.catItemAddLink {border: 0 none;}
+#k2Container div.itemListCategory p {margin-bottom: 0;}
+#k2Container div.itemListCategory h2 {text-align: center;clear: both;}
+
+/* K2 Primary Items */
+#k2Container .groupPrimary {background: none;}
+#k2Container #itemListPrimary {margin: 0 -16px;}
+#itemListPrimary .itemContainer {margin-bottom: 10px;}
+#k2Container .groupPrimary {padding: 10px;margin-right: 6px;margin-left: 6px;}
+#k2Container div.latestItemsContainer {margin-bottom: 20px;}
+
+/* K2 Secondary Items */
+#itemListSecondary .groupSecondary {margin: 0;padding: 0;}
+
+/* K2 Items */
+#k2Container .itemExtraFields ul li {background: none;border-bottom: none;}
+#k2Container .itemImage {background: none;}
+#k2Container .itemHeader {background: none;}
+#k2Container .componentheading {margin: 0;font-weight: normal;font-size: 170%;line-height: 130%;padding: 0 0 10px 0;letter-spacing: normal;margin-bottom: 5px;}
+#k2Container .itemImageBlock {padding: 0;padding-top: 10px;margin: 0 20px 20px 0;float: left;}
+#k2Container .itemImage img {display: block;}
+#k2Container .itemToolbar {border: 0;background: none;margin-top: 10px;}
+#k2Container .itemToolbar ul {text-align: left;}
+#k2Container .itemToolbar ul li .itemTextResizerTitle {margin-left: -7px;}
+#k2Container .itemHeader {padding-bottom: 0px;}
+
+/* K2 Content Module */
+div.k2ItemsBlock ul li a.moduleItemTitle {font-size: 130%;font-weight: bold;}
+div.k2ItemsBlock ul, div.k2ItemsBlock ol {padding: 0;}
+.k2ItemsBlock .even {background:transparent;border-bottom:0 none;}
+.k2ItemsBlock .odd {background:transparent;border-bottom:0 none;}
+div.k2ItemsBlock ul {list-style: none;padding: 0;margin: 0;}
+div.k2ItemsBlock ul li {list-style: none;padding: 0;margin: 0;background: none;border: none;margin-top: 30px;}
+div.k2ItemsBlock ul li a {font-size: 100%;}
+div.k2ItemsBlock ul li div.moduleItemVideo {margin-bottom: 20px;margin-top: 20px;}
+div.k2ItemsBlock ul li div.moduleItemTags {margin-bottom: 20px;margin-top: 20px;}
+div.k2ItemsBlock ul li a.moduleItemAuthorAvatar img {margin-top: -10px;padding-bottom: 10px;}
+div.k2ItemsBlock ul li div.moduleItemAuthor {margin-bottom: 10px;margin-top: 10px;clear: both;}
+div.k2ItemsBlock ul li div.moduleItemTags b {padding-left: 0;font-weight: normal;}
+
+/* K2 Items - Extra */
+#k2Container .itemExtraFields {border: none;}
+#k2Container .itemExtraFields h3 {font-size: 120%;}
+#k2Container .itemExtraFields ul li {background: none;}
+
+/* K2 Items - Links */
+#k2Container .itemLinks div {background: none;}
+#k2Container .itemLinks {background: none;border: none;}
+#k2Container .itemLinks div {border: 0;}
+#k2Container .itemLinks .clr {background: none;}
+#k2Container .itemTagsBlock {padding: 4px 4px 4px 0;}
+#k2Container .itemTagsBlock span {border: 0;padding-left: 0;display: inline-block;font-size: 100%;font-weight: normal;margin-bottom: 6px;width: 85px;}
+#k2Container .itemCategory {padding: 4px 4px 4px 0;}
+#k2Container .itemCategory span {line-height: 24px;display: inline-block;padding-left: 0;font-size: 100%;font-weight: normal;width: 85px;}
+#k2Container .itemSocialLinksBlock span {font-size: 100%;}
+
+/* K2 Items - Tags */
+div.k2TagCloudBlock {padding: 0;margin-left: -5px;}
+
+/* K2 Items - Author / Related */
+#k2Container .itemAuthorLatest, #k2Container .itemRelated {background: none;float: left;}
+#k2Container .itemAuthorBlock {background: none;border: none;padding: 0;}
+#k2Container .itemAuthorLatest, #k2Container .itemRelated {padding-bottom: 0px;}
+#k2Container .itemAuthorLatest h3, #k2Container .itemRelated h3 {font-size: 120%;}
+#k2Container .itemAuthorLatest ul, #k2Container .itemRelated ul {list-style: none;padding: 0;margin: 0;}
+#k2Container .itemAuthorLatest ul li, #k2Container .itemRelated ul li {list-style: none;padding: 0;margin: 0;background: none;border: none;}
+#k2Container .itemAuthorLatest ul li a, #k2Container .itemRelated ul li a {padding-left: 12px;}
+
+/* K2 Items - Video */
+.itemVideoBlock {background: none;}
+#k2Container .itemVideoEmbedded {background: none;}
+#k2Container .itemVideoBlock {padding: 0 0 20px 0;}
+#k2Container .itemVideoBlock h3 {font-size: 120%;}
+#k2Container .itemVideoEmbedded {margin-bottom: 10px;padding: 10px;display: inline-block;}
+#k2Container .itemVideoBlock span {color: inherit}
+
+/* K2 Items - Comments */
+.itemComments {background: none;border: none;}
+.itemCommentsList {background: none;}
+#k2Container .itemCommentsList li {background: none;border: none;padding: 20px;}
+#k2Container .itemNavigation {background: none;border: none;font-size: 110%;}
+#k2Container .itemComments {padding: 0;}
+#k2Container .itemCommentsList {padding-bottom: 20px;margin-bottom: 0;}
+#k2Container .commentDate {display: inline-block;font-size: 90%;line-height: 100%;}
+#k2Container .commentAuthorName {display: inline-block;line-height: 100%;font-size: 100%;}
+#k2Container .authorResponse img {margin: 0 10px 10px 0;}
+#k2Container .itemCommentsFormNotes {border: none;}
+#k2Container .itemCommentsForm .inputbox {padding: 5px;}
+#k2Container .itemCommentsForm .button {padding: 5px 12px;display: inline-block;line-height: 1.8em;background-repeat: repeat-x;position: relative;font-size: 100%;-webkit-transition: background-color 0.1s ease-in;-moz-transition: background-color 0.1s ease-in;-o-transition: background-color 0.1s ease-in;-ms-transition: background-color 0.1s ease-in;transition: background-color 0.1s ease-in;}
+#k2Container .itemBackToTop {margin-top: 10px;}
+#k2Container div.itemComments ul.itemCommentsList li img {margin-right: 14px;}
+
+/* K2 User */
+.userItemView, #k2Container .userItemView.userItemIsFeatured {background: none;}
+.userItemLinks {background: none;border: none;}
+#k2Container .userBlock {background: none;border: none;}
+.userItemImageBlock img {background: none;}
+.userItemCategory {background: none;}
+#k2Container .userItemView {border: none;padding-bottom: 0px;margin-bottom: 10px;}
+div.userBlock p.userAdditionalInfo {border: none;}
+div.userItemCategory, div.userItemTagsBlock {border: none;}
+#k2Container .userItemIntroText {padding: 0;}
+#k2Container .userItemImage {margin-right: 10px;margin-bottom: 10px;}
+#k2Container .userItemCategory {border: 0;padding: 4px 4px 0px 0;}
+#k2Container .userItemCategory span {font-size: 100%;border: 0;padding-left: 0;display: inline-block;line-height: 24px;font-weight: normal;width: 85px;}
+#k2Container .userItemTagsBlock {border: 0;padding-left: 0;font-weight: normal;}
+#k2Container .userItemTagsBlock span {font-size: 100%;font-weight: normal;margin-bottom: 6px;}
+div.userBlock h2 {margin-top: 6px;}
+.k2AccountPage th.k2ProfileHeading, .k2AccountPage table.admintable td.key, .k2AccountPage table.admintable td.paramlist_key {background: none;}
+
+/* K2 Generic */
+.genericItemImageBlock img {background: none;}
+.genericItemView {background: none;}
+#k2Container .genericItemView {border: none;padding-bottom: 20px;margin-bottom: 10px;}
+#k2Container .genericItemIntroText {padding: 0;}
+#k2Container .genericItemImage {margin-right: 10px;margin-bottom: 10px;}
+#k2Container .genericItemCategory {border: 0;padding-left: 30px;display: inline-block;line-height: 130%;}
+#k2Container .genericItemCategory span {font-size: 110%;line-height: 24px;}
+#k2Container .genericItemTagsBlock {border: 0;padding-left: 0;}
+#k2Container .genericItemTagsBlock span {font-size: 100%;margin-bottom: 6px;}
+
+/* K2 Comments Module */
+.k2LatestCommentsBlock ul {list-style: none;padding: 0;}
+.k2LatestCommentsBlock ul li {padding: 10px 0;background: none;border: 0 none;}
+.k2LatestCommentsBlock ul li a {font-size: 100%;}
+.k2LatestCommentsBlock ul li .lcAvatar img {margin: 0 10px 10px 0;}
+.k2LatestCommentsBlock .lcUsername, .k2LatestCommentsBlock .lcCommentDate {display: block;font-size: 80%;}
+
+/* K2 Users Module */
+.k2UsersBlock ul li {background: none;}
+.k2UsersBlock ul {padding: 0;margin: 0;list-style: none;}
+.k2UsersBlock ul li {padding-bottom: 10px;}
+.k2UsersBlock ul li h3 {font-size: 120%;margin-bottom: 10px !important;}
+.k2UsersBlock .ubUserAvatar img {margin-bottom: 15px;}
+.k2UsersBlock ul.ubUserItems li {background: none;}
+.k2UsersBlock ul.ubUserItems li a {padding-left: 12px;font-size: 120%;line-height: 100%;display: block;}
+div.k2UserBlock ul.k2UserBlockActions {padding: 0;margin: 0;list-style: none;margin-bottom: 5px;margin-top: 5px;}
+div.k2UserBlock ul.k2UserBlockActions li {padding-left: 0;}
+span.userItemAddLink {border: 0 none;position: relative;z-index: 100;}
+span.userItemEditLink, span.catItemEditLink, span.itemEditLink {width: auto;line-height: 0.9em;margin-top: 1px;}
+.k2AccountPage table.admintable td.key, .k2AccountPage table.admintable td.paramlist_key {border: 0 none;}
+.k2AccountPage table tr td label{margin-right: 10px;}
+.k2AccountPage th.k2ProfileHeading {border-width: 1px;margin-bottom:20px;}
+
+/* K2 Categories Module */
+.k2CategoriesListBlock ul {padding: 0;list-style: none;font-weight: bold;}
+.k2CategoriesListBlock ul li a {padding-left: 15px;font-size: 1.2em;}
+div.k2CategoriesListBlock ul li.activeCategory a {font-weight: bold;}
+div.k2CategoriesListBlock ul li.activeCategory > a {padding: 5px 20px;padding-right: 8px;}
+div.k2CategoriesListBlock ul li.activeCategory {margin-left: -6px;}
+
+/* K2 Latest */
+#k2Container h2.latestItemTitle {margin-top: 20px;}
+#k2Container div.latestItemsUser h2 {margin-top: 10px;}
+#k2Container div.latestItemVideoBlock {background: none;}
+#k2Container div.latestItemCategory,#k2Container div.latestItemTagsBlock {border: 0 none;}
+#k2Container .latestItemLinks .clr {background: none;padding: 0;}
+#k2Container div.latestItemsUser p.latestItemsUserDescription {padding: 0;}
+#k2Container .latestItemTagsBlock {padding: 0;}
+#k2Container .latestItemTagsBlock span {border: 0;padding-left: 0;display: inline-block;font-size: 100%;font-weight: normal;margin-bottom: 6px;width: 85px;}
+#k2Container .latestItemCategory {padding:0;}
+#k2Container .latestItemCategory span {line-height: 24px;display: inline-block;padding-left: 0;font-size: 100%;font-weight: normal;width: 85px;}
+#k2Container div.latestItemsUser {background: none;border: 0 none;}
+#k2Container div.latestItemsUser img {margin: 7px 10px 10px 0;}
+span.latestItemImage {margin: 15px 0 25px 0;}
+div.latestItemsCategory h2 {text-align: center;}
+div.latestItemsCategoryImage {margin-bottom: 10px;}
+
+/* K2 Login */
+div.k2LoginBlock ul {padding: 0;}
+div.k2LoginBlock ul li {list-style: none;}
+div.k2LoginBlock ul li a {padding-left: 12px;}
+
+/* K2 Archives */
+div.k2ArchivesBlock ul {padding: 0;}
+div.k2ArchivesBlock ul li {list-style: none;}
+div.k2ArchivesBlock ul li a {padding-left: 12px;}
+
+/* K2 Authors List */
+div.k2AuthorsListBlock ul {padding: 0;}
+div.k2ArchivesBlock ul li {list-style: none;}
+div.k2ArchivesBlock ul li a, div.k2AuthorsListBlock ul li a.abAuthorLatestItem {font-size: 100%;}
+
+/* K2 Calendar Module */
+table.calendar {margin: 0;width: 100%;}
+
+/* K2 RTL Support */
+body.rtl #k2Container div.catItemRatingBlock {float: right;}
+body.rtl #k2Container .k2FeedIcon {right: auto;left: 0;float: right;}
+body.rtl #k2Container .itemListCategory img {margin-right: 0;margin-left: 10px;}
+body.rtl #k2Container .catItemHitsBlock, body.rtl #k2Container .catItemCategory {padding: 4px 0 0 4px;}
+body.rtl #k2Container .catItemCategory span {padding-left: 0;padding-right: 22px;width: 85px;}
+body.rtl #k2Container .catItemCategory span {background-position: 100% 4px;}
+body.rtl #k2Container .catItemTagsBlock {background-position: 100% 7px;padding-left: 0;padding-right: 20px}
+body.rtl #k2Container .catItemCommentsLink {padding-left: 0;padding-right: 30px;margin-left: 0;margin-right: 12px;width: 85px;}
+body.rtl #k2Container .catItemCommentsLink {background-position: 100% 4px;}
+body.rtl #k2Container span.catItemAddLink {text-align: right;}
+body.rtl #k2Container .itemListSubCategories h3 {margin-left: 0;margin-right: 15px;}
+
+body.rtl #k2Container .itemToolbar ul {text-align: right;}
+body.rtl #k2Container .itemToolbar ul li .itemTextResizerTitle {margin-left: 0;margin-right: -7px;}
+body.rtl #k2Container .itemTagsBlock, body.rtl #k2Container .itemCategory {padding-left: 0;padding-right: 20px;}
+body.rtl #k2Container .itemCategory span {padding-left: 0;padding-right: 20px;width: 85px;}
+body.rtl #k2Container .itemCategory span {background-position: 100% 4px;}
+body.rtl #k2Container .itemAuthorLatest ul ul, body.rtl #k2Container .itemRelated ul ul {margin-left: 0;margin-right: 25px;}
+body.rtl #k2Container .itemAuthorLatest ul li a, body.rtl #k2Container .itemRelated ul li a {padding-left: 0;padding-right: 12px;background-position: 100% -479px !important;}
+
+body.rtl #k2Container .authorResponse img {margin: 0 0 10px 10px;}
+body.rtl #k2Container .userItemCategory {padding: 4px 0 12px 4px;}
+body.rtl #k2Container .userItemCategory span {padding-left: 0;padding-right: 20px;background-position: 100% 4px;}
+body.rtl #k2Container .itemTagsBlock span {padding-left: 0;padding-right: 20px;background-position: 100% 2px;}
+body.rtl #k2Container .userItemTagsBlock {padding-left: 0;padding-right: 20px;background-position: 100% 7px;}
+body.rtl #k2Container .genericItemCategory {padding-left: 0;padding-right: 20px;background-position: 100% 4px;}
+body.rtl #k2Container .genericItemTagsBlock {padding-left: 0;padding-right: 20px;background-position: 100% 7px;}
+body.rtl .k2LatestCommentsBlock ul li .lcAvatar img {margin: 0 0 10px 10px;}
+body.rtl .k2UsersBlock ul.ubUserItems ul, body.rtl .k2CategoriesListBlock ul ul {margin-left: 0;margin-right: 25px;}
+body.rtl .k2UsersBlock ul.ubUserItems li a, body.rtl .k2CategoriesListBlock ul li a {padding-left: 0;padding-right: 12px;background-position: 100% -479px !important;}
+body.rtl #k2Container .catItemImageBlock {text-align: right;margin-right:0;padding-right:0;}
+body.rtl #k2Container.itemIsFeatured, body.rtl #k2Container .catItemIsFeatured {background-position: 0 0 !important;}
+body.rtl div.k2TagCloudBlock a, body.rtl div.tagItemImageBlock {float: right;}
+body.rtl span.tagItemImage {padding-right: 0;margin-right: 0;}

@@ -1,0 +1,62 @@
+/**
+* @version   $Id: fusionmenu.css 3373 2012-09-07 02:00:10Z kevin $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Global Settings */
+.menutop {list-style: none;margin: 0;padding: 0;position: relative;line-height: 1em;display: inline-block;}
+.menutop li {height: auto;margin: 0;padding: 0;position: relative;list-style: none;float: left;display: block;}
+.menutop em {display: block;}
+.menutop li .item {display: block;margin: 0;text-decoration: none;float: none;width: auto;white-space: nowrap;cursor: pointer;outline: none;position: relative;height: auto;}
+.menutop li .fusion-submenu-wrapper {float: none;left: -999em;position: absolute;z-index: 500;}
+.menutop li:hover li ul {top: -999em;}
+.menutop li:hover ul {top: 0;}
+
+/* Menu Items */
+.menutop .item {font-size: 140%;font-weight: 500;line-height: 1.8em;}
+.menutop li.root > .item > span {padding: 24px 14px 32px;display: block;}
+.menutop li.root {margin-right: 5px;border-top: 4px solid transparent;}
+.menutop li.root:hover, .menutop li.root.active {border-top: 4px solid;}
+.menutop li.parent.root .item .daddyicon, .menutop li.root .daddy.item .daddyicon {width: 12px;height: 7px;position: absolute;right: 2px;top: 50%;margin-top: -6px;background-position: 0 0;background-repeat: no-repeat;}
+.menutop li.root > .item em {font-size: 13px;font-style: italic;line-height: 100%;text-transform: none;font-weight: normal;font-family: georgia, "Times New Roman", Times, serif;margin-top: 4px;}
+.menutop li.root .daddy > span {padding-right: 24px;}
+.menutop li.root .image img {margin-bottom: -1px;}
+
+/* Dropdown Surrounds */
+.menutop ul {padding: 0;margin: 0;float: left;}
+.menutop .drop-bot {height: 1px;overflow: hidden;clear: both;}
+.menutop .fusion-submenu-wrapper {height: auto;padding: 0;position: relative;}
+.menutop .drop-bot {height: 1px;overflow: hidden;clear: both;}
+.menutop li.root > .item.subtext {line-height: 14px;}
+.menutop .fusion-submenu-wrapper {height: auto;padding: 0;position: relative;}
+.fusion-submenu-wrapper {position: relative;height: auto !important;}
+
+/* Fusion JS */
+.fusion-submenu-wrapper {border-bottom: 2px solid;}
+.fusion-js-container {display: block;height: 0;left: 0;overflow: visible;position: absolute;top: 0;z-index: 600000!important;background: transparent !important;}
+.fusion-js-subs {display: none;margin: 0;overflow: hidden;padding: 0;position: absolute;}
+.fusion-js-subs ul li {width: 100%;float: none;margin: 0 10px;}
+.menutop .fusion-js-subs li > .item span {display: block;font-size: 0.9em;}
+.menutop .fusion-js-subs li > .item {padding: 3px 8px;}
+.menutop .fusion-js-subs li > .item em {font-size: 10px;line-height: 0.9em;}
+.menutop ul li > .daddy span {background-position: 95% -62px;background-repeat: no-repeat;}
+
+/* JS Disabled */
+.menutop li.root:hover > .fusion-submenu-wrapper {top: 65px;left: 0;}
+.menutop ul li:hover > .fusion-submenu-wrapper {left: 180px;top: -8px;}
+
+/* Grouped & Modules */
+.fusion-grouped ol {padding: 0;}
+.menutop .fusion-module, .menutop .fusion-modules, .menutop .fusion-grouped {display: block;}
+.menutop .fusion-js-subs li > .item.fusion-modules {padding: 3px 11px;}
+.menutop .fusion-module em {display: inline;}
+.menutop .fusion-module p {white-space: normal;line-height: 1.2em;font-size: 1em;}
+.menutop ul .grouped-parent > .daddy span {background: none;}
+.menutop ul li > .fusion-modules.item:hover {background: none !important;border: none !important;box-shadow: none;}
+.fusion-grouped ol {padding: 0;}
+.menutop .fusion-js-subs li > .fusion-modules.item {padding-right: 18px;}
+.menutop .fusion-module, .menutop .fusion-modules, .menutop .fusion-grouped {display: block;font-size: 100%;}
+.menutop .fusion-module .module-title {margin: 0;padding: 0;font-size: 1.5em;}
+.menutop .fusion-module .module-title .title {font-size: 1.5em;}

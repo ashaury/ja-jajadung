@@ -1,0 +1,20 @@
+/**
+* @version   $Id: splitmenu.css 1748 2012-07-18 18:57:38Z josh $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* Global Settings */
+.menutop {list-style: none;margin: 0;padding: 0;position: relative;line-height: 1em;display: inline-block;z-index: 1;}
+.menutop li {height: auto;margin: 0;padding: 0;position: relative;list-style: none;float: left;}
+.menutop em {display: block;}
+.menutop li .item {display: block;margin: 0;text-decoration: none;float: none;width: auto;}
+
+/* Menu Items */
+.menutop .item {font-size: 140%;font-weight: 500;line-height: 1.8em;}
+.menutop li > .item > span {padding: 23px 14px 36px;display: block;}
+.menutop li {margin-right: 5px;border-top: 4px solid transparent;}
+.menutop li:hover, .menutop li.root.active {border-top: 4px solid;}
+.menutop li > .item em {font-size: 13px;font-style: italic;line-height: 100%;text-transform: none;font-weight: normal;font-family: georgia, "Times New Roman", Times, serif;margin-top: 4px;}
+.menutop.level1 li > .item.subtext {line-height: 14px;}

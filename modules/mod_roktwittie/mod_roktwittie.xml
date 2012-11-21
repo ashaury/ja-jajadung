@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<extension client="site" method="upgrade" type="module" version="1.6.0">
+	<name>RokTwittie</name>
+	<author>RocketTheme, LLC</author>
+	<creationDate>September 3, 2012</creationDate>
+	<authorEmail>support@rockettheme.com</authorEmail>
+	<authorUrl>http://www.rockettheme.com</authorUrl>
+	<copyright>(C) 2005 - 2012 RocketTheme, LLC. All rights reserved.</copyright>
+	<license>http://www.gnu.org/copyleft/gpl.html GNU/GPL</license>
+	<version>1.8</version>
+	<description>RokTwittie is a Twitter module that lets you display up to 140 tweets, display tweets through oAuth authentication and display Twitter search results. RokTwittie supports many settings like multiple users to display, merged tweets and comes with a light and dark built-in styles.</description>
+	<files>
+		<filename>en-GB.mod_roktwittie.ini</filename>
+        <folder>admin</folder>
+        <filename>api.php</filename>
+        <folder>images</folder>
+        <folder>fields</folder>
+        <folder>libs</folder>
+        <filename module="mod_roktwittie">mod_roktwittie.php</filename>
+        <filename>index.html</filename>
+        <folder>tmpl</folder>
+        <folder>css</folder>
+        <filename>roktwittie.class.php</filename>
+        <filename>checksums</filename>
+        <filename>CHANGELOG.php</filename>
+        <filename>helper.php</filename>
+        <filename>RT-LICENSE.php</filename>
+        <folder>js</folder>
+    </files>
+	<languages>
+		<language tag="en-GB">en-GB.mod_roktwittie.ini</language>
+	</languages>
+    
+	<config>
+		<fields name="params">
+			<fieldset addfieldpath="/modules/mod_roktwittie/fields" name="basic">
+                <field default="" description="" label="Status" name="@status" type="status"/>
+                <field default="0" description="" label="Use OAuth" name="use_oauth" type="oauth">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field default="" description="" label="Twitter APP consumer key" name="consumer_key" type="text"/>
+                <field default="" description="" label="Twitter APP consumer secret" name="consumer_secret" type="text"/>
+                <field default="" description="" label="Authenticate" name="@signin" type="signin"/>
+                <field default="" description="PARAMMODULECLASSSUFFIX" label="Module Class Suffix" name="moduleclass_sfx" type="text"/>
+                <field default="1" description="whether to load builtin CSS files. Useful when you want to write your own style and don't want to overwrite." label="Load built-in StyleSheet" name="load_css" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field default="1" description="Enable output cache" label="Output Caching" name="enable_cache" type="radio">
+                    <option value="1">JYES</option>
+                    <option value="0">JNO</option>
+                </field>
+                <field default="3" description="The number of seconds to wait while trying to connect to Twitter. User 0 to wait indefinitely." label="Timeout on connect (secs)" name="timeout_connect" type="text"/>
+                <field default="6" description="The maximum number of seconds to allow cURL functions to execute." label="Timeout on response (secs)" name="timeout_response" type="text"/>
+                <field default="5" description="Cache time in minutes." label="Cache time (mins)" name="enable_cache_time" type="text"/>
+                <field default="rockettheme" description="One or more Twitter usernames. If more than one, separate by comma." label="Usernames, separated by comma" name="usernames" type="text"/>
+                <field default="0.5" description="When multiple users, how much opacity to be given to the inactive users." label="Inactive users opacity" name="inactive_opacity" type="text"/>
+                <field label="&lt;div id=&quot;joomla-label&quot;  style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Usernames Statuses&lt;/div&gt;" name="spacer_username_statuses" type="spacer"/>
+                <field default="1" description="whether to enable show default avatar when not provided" label="Show default avatars" name="show_default_avatar" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="dark" description="whether to show the header background in a light or dark style" label="Show default avatars" name="header_style" type="radio">
+                        <option value="light">Light</option>
+                        <option value="dark">Dark</option>
+                </field>
+                <field default="1" description="whether to include RT's to users' tweets list" label="Include ReTweets" name="include_rts" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to enable the usernames statuses" label="Enable usernames statuses" name="enable_statuses" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to open in a new window the links." label="Open links in new window" name="status_external" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show the RSS Feed link" label="Show the RSS Feed link" name="show_feed" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show the follow updates link" label="Show follow updates link" name="show_follow_updates" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show the bio description" label="Show the bio description" name="show_bio" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show the URL" label="Show the URL" name="show_web" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show the location" label="Show the location" name="show_location" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show user updates count" label="Show user updates count" name="show_updates" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show user followers count" label="Show user followers count" name="show_followers" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show user following count" label="Show user following count" name="show_following" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show following icons" label="Show following icons" name="show_following_icons" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="10" description="Following icons count to show." label="Icons count to show" name="following_icons_count" type="text"/>
+                <field default="1" description="whether to show view all after icons when the count is lesser than the actual amount of following users" label="Show View all after icons" name="show_viewall" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+
+                <field label="&lt;div id=&quot;joomla-label&quot;  style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Usernames Tweets&lt;/div&gt;" name="spacer_username_tweets" type="spacer"/>
+                <field default="1" description="whether to enable the usernames tweets" label="Enable usernames tweets" name="enable_usernames" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show usernames avatar" label="Show usernames avatars" name="enable_usernames_avatar" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field default="48" description="Size in pixels of the avatar. Maximum allowed by Twitter is 48." label="Size in pixel of the avatar" name="usernames_avatar_size" type="text"/>
+                <field default="4" description="Number of tweets to show. Maximum allowed by the API is 100." label="Tweets count" name="usernames_count_size" type="text"/>
+                <field default="1" description="If enabled, the number of tweets will always be relative to the count, otherwise it will be COUNT * NUMBER_OF_USERS" label="Merge Tweets" name="usernames_count_merged" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to open in a new window the links." label="Open links in new window" name="enable_usernames_externals" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show the source of the tweets." label="Show tweets sources" name="enable_usernames_source" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show the tweets's username before the tweets." label="Show usernames as prepended text" name="enable_usernames_user" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+
+                <field label="&lt;div id=&quot;joomla-label&quot;  style=&quot;font-weight:normal;font-size:12px;color:#fff;padding:4px;margin:0;background:#666;&quot;&gt;Search Tweets&lt;/div&gt;" name="spacer_search_tweets" type="spacer"/>
+                <field default="1" description="whether to enable the search tweets" label="Enable search tweets" name="enable_search" type="radio">
+                        <option value="0">JNO</option>
+                        <option value="1">JYES</option>
+                </field>
+                <field default="@rockettheme" description="Search string or query for filtering tweets." label="Search string" name="search" type="text"/>
+                <field default="1" description="whether to show search avatars" label="Show search avatars" name="enable_search_avatar" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field default="48" description="Size in pixels of the avatar. Maximum allowed by Twitter is 48." label="Size in pixel of the avatar" name="search_avatar_size" type="text"/>
+                <field default="4" description="Number of tweets to show. Maximum allowed by the API is 100." label="Tweets count" name="search_count_size" type="text"/>
+                <field default="1" description="whether to open in a new window the links." label="Open links in new window" name="enable_search_externals" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show the source of the tweets." label="Show tweets sources" name="enable_search_source" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+                <field default="1" description="whether to show the tweets's username before the tweets." label="Show usernames as prepended text" name="enable_search_user" type="radio">
+                    <option value="0">JNO</option>
+                    <option value="1">JYES</option>
+                </field>
+
+                <!-- Hidden params -->
+                <field default="" description="" label="" name="oauth_token" type="hidden"/>
+                <field default="" description="" label="" name="oauth_token_secret" type="hidden"/>
+            </fieldset>
+            <fieldset name="advanced">
+		        <field default="0" name="cache" type="hidden"/>
+				<field description="MOD_BACKGROUNDIMAGE_FIELD_LOGO_DESC" label="MOD_CUSTOM_FIELD_BACKGROUNDIMAGE_LABEL" name="backgroundimage" type="media"/>		
+		        <field default="1" description="COM_MODULES_FIELD_CACHING_DESC" label="COM_MODULES_FIELD_CACHING_LABEL" name="module_cache" type="list">
+		            <option value="1">JGLOBAL_USE_GLOBAL</option>
+		            <option value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+		        </field>
+		        <field default="900" description="COM_MODULES_FIELD_CACHE_TIME_DESC" label="COM_MODULES_FIELD_CACHE_TIME_LABEL" name="cache_time" type="text"/>
+            </fieldset>
+        </fields>
+    </config>
+    <updateservers>
+            <server name="RocketTheme Update Directory" priority="1" type="collection">http://updates.rockettheme.com/joomla/updates.xml</server>
+        </updateservers>
+</extension>

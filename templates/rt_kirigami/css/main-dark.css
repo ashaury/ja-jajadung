@@ -1,0 +1,218 @@
+/**
+* @version   $Id: main-dark.css 1672 2012-07-13 21:50:52Z josh $
+* @author    RocketTheme http://www.rockettheme.com
+* @copyright Copyright (C) 2007 - 2012 RocketTheme, LLC
+* @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+body, a:hover {color: #dedede;}
+.main-bg-none {background: #181818;}
+.main-bg-paper {background: #EBE8D5 url(../images/backgrounds/paper.jpg);}
+.main-bg-gray-paper {background: #d0d3d8 url(../images/backgrounds/gray-paper.jpg);}
+.main-bg-vintage {background: #dfdad4 url(../images/backgrounds/vintage.jpg);}
+.main-bg-guides {background: #e8e8e8 url(../images/backgrounds/guides.jpg);}
+.main-bg-chrome {background: #060608 url(../images/backgrounds/chrome.jpg);}
+.main-bg-wall {background: #424651 url(../images/backgrounds/wall.jpg);}
+.main-bg-diamond {background: #2e353b url(../images/backgrounds/diamond.jpg);}
+.main-bg-lines {background: #33363b url(../images/backgrounds/lines.jpg);}
+.main-bg-grunge {background: #e1d8d9 url(../images/backgrounds/grunge.jpg);}
+.main-bg-sphere {background: #312e35 url(../images/backgrounds/sphere.jpg);}
+
+/* Header/Footer */
+#rt-header, #rt-footer .rt-container {background: #292929;color: #fff;}
+.rt-headerborder {background: #1B1C1D;}
+#rt-footer a {color: #8C8D8F;}
+
+/* Copyright */
+#rt-copyright, #rt-feature {color: #bbb;}
+#rt-copyright a:hover, #rt-feature a:hover {color: #fff;}
+
+/* Titles */
+h2, .title {text-shadow: 0 2px 0 rgba(0,0,0,0.1);}
+
+/* Modules */
+.rt-block, .rt-error-box {background: #333;}
+.rt-block.box1 {background: rgba(255,255,255,0.3);}
+.box1 a {text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7), -1px -1px 1px rgba(225,225,225,0.1);}
+body #rt-header .box1, body #rt-footer .box1 {color: #fff;}
+.rt-block.box2 {background: rgba(0,0,0,0.6);color: #fff;}
+.box2 a:hover {color: #fff;}
+.rt-block.box3, ul.menu {background: #292929;}
+.box3 .module-title, .box3, .box3 a:hover {color: #fff;}
+.rt-block.box4 {background: #777;}
+.title1 .title:before {background-color: #555;}
+.title2 .title:before {background-color: #999;}
+.title4 .title:before {background-image: url(../images/dark/nav-arrows.png);}
+.title5 .module-title {background-color: #333;}
+.basic .title, .basic a:hover, .basic, .nobox .title, .nobox a:hover, .nobox {color: #fff;}
+.blockfill {background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSI1MCUiIHN0b3AtY29sb3I9IiMzMzMzMzMiIHN0b3Atb3BhY2l0eT0iMCIvPgogICAgPHN0b3Agb2Zmc2V0PSI4MCUiIHN0b3AtY29sb3I9IiMzMzMzMzMiIHN0b3Atb3BhY2l0eT0iMSIvPgogICAgPHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMzMzMzMzIiBzdG9wLW9wYWNpdHk9IjEiLz4KICA8L2xpbmVhckdyYWRpZW50PgogIDxyZWN0IHg9IjAiIHk9IjAiIHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9InVybCgjZ3JhZC11Y2dnLWdlbmVyYXRlZCkiIC8+Cjwvc3ZnPg==) !important;
+background: -moz-linear-gradient(top, rgba(51,51,51,0) 50%, rgba(51,51,51,1) 80%, rgba(51,51,51,1) 100%) !important;
+background: -webkit-gradient(linear, left top, left bottom, color-stop(50%,rgba(51,51,51,0)), color-stop(80%,rgba(51,51,51,1)), color-stop(100%,rgba(51,51,51,1))) !important;
+background: -webkit-linear-gradient(top, rgba(51,51,51,0) 50%,rgba(51,51,51,1) 80%,rgba(51,51,51,1) 100%) !important;
+background: -o-linear-gradient(top, rgba(51,51,51,0) 50%,rgba(51,51,51,1) 80%,rgba(51,51,51,1) 100%) !important;
+background: -ms-linear-gradient(top, rgba(51,51,51,0) 50%,rgba(51,51,51,1) 80%,rgba(51,51,51,1) 100%) !important;
+background: linear-gradient(to bottom, rgba(51,51,51,0) 50%,rgba(51,51,51,1) 80%,rgba(51,51,51,1) 100%) !important;
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00333333', endColorstr='#333333',GradientType=0 ) !important;}
+
+/* Navigation */
+.menutop .item, #rt-header .menutop .item {color: #aaa;text-shadow: 1px 1px 1px rgba(0,0,0,0.4);}
+.menutop.fusion-js-container ul li > .fusion-modules.item:hover, .menutop .item:hover, .splitmenu .item:hover, .menutop li.f-mainparent-itemfocus .item, .menutop > li.active .item, #rt-header .menutop.fusion-js-container ul li > .fusion-modules.item:hover, #rt-header .menutop .item:hover, #rt-header .splitmenu .item:hover, #rt-header .menutop li.f-mainparent-itemfocus .item, #rt-header .menutop > li.active .item, .fusion-js-subs li.active .item, .module-content ul.menu > li > a:hover, .module-content ul.menu > li.active.current > a, .module-content ul.menu li li > a:hover, .module-content ul.menu li.active.current > a, .module-content ul.menu li.active#current > a, .module-content ul.menu li > .separator:hover, .module-content ul.menu li > .nolink:hover {color: #fff;}
+.fusion-submenu-wrapper {background-color: rgba(50, 50, 50, 0.9);}
+.daddyicon, .menutop ul li > .daddy span {background-image: url(../images/dark/nav-arrows.png);}
+.menutop .fusion-module {color: #8C8D8F;}
+
+/* Side Menu */
+.module-content ul.menu > li > a, .module-content ul.menu > li > .separator, .module-content ul.menu > li > .nolink {background-image: url(../images/dark/bevel-border.png);color: #8C8D8F;text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);}
+.module-content ul.menu > li a, .module-content ul.menu li .separator, .module-content ul.menu li .nolink {color: #8C8D8F;}
+.module-content ul.menu > li:hover, .module-content ul.menu > li.active {background: #222;}
+.module-content ul.menu li.parent li a, .module-content ul.menu li.parent li .item, .module-content ul.menu li.parent li .separator {background-image: url(../images/dark/nav-arrows.png);}
+
+/* Horiz Menu */
+.horizmenu ul.menu li a, .horizmenu ul.menu li .item, .horizmenu ul.menu li .separator {color: #bbb;}
+.horizmenu ul.menu li a:hover, .horizmenu ul.menu li .item:hover, .horizmenu ul.menu li .separator:hover, .horizmenu ul.menu li.active a, .horizmenu ul.menu li.active .item {color: #fff;}
+.horizmenu .module-content ul.menu > li {background: url(../images/dark/arrows.png) no-repeat scroll 93% -348px;}
+
+/* Logo */
+.logo-type-kirigami #rt-logo {background-image: url(../images/logo/dark/logo.png);}
+
+/* Article */
+.component-content .actions li img {background-image: url(../images/dark/article-icons.png);}
+.component-content .article-info {color: #777;}
+.system-unpublished {background: #555;border-top-color: #444;border-bottom-color: #444}
+
+/* Buttons & Inputs */
+.button, .readon, .readmore, button.validate, #member-profile a, #member-registration a, .formelm-buttons button {color: #fff;text-shadow: 0 -1px 1px rgba(0,0,0,0.5);border: 1px solid rgba(225,225,225,0.3);border-top-color: rgba(225,225,225,0.6);box-shadow: 0 0 0 1px rgba(0,0,0,0.4);background-image: url(../images/dark/readon.png);}
+.readmore a, .readon span {color: #fff;}
+.button:hover, .readon:hover, .readmore:hover, button.validate:hover, #member-profile a:hover, #member-registration a:hover, .formelm-buttons button:hover, .readmore:hover a {color: #fff;}
+.button:active, .readon:active, .readmore:active, button.validate:active, #member-profile a:active, #member-registration a:active, .formelm-buttons button:active {box-shadow: 0 0 0 1px rgba(0,0,0,0.4),inset 0 0 10px rgba(0,0,0,0.5);}
+.login-fields #username, .login-fields #password, #contact-form dd input, #contact-form dd textarea, #modlgn-username, #modlgn-passwd, #jform_email, #member-registration dd input, #search-searchword, .finder .inputbox, .inputbox {border: 1px solid #CFCFCF;background-color: #ccc;}
+.component-content .login + div ul li a, #login-form a, .component-content .items-more ol li a {background-image: url(../images/dark/arrows.png);}
+
+/* Breadcrumbs */
+.breadcrumbs img[src$="arrow.png"] {background-image: url(../images/dark/arrows.png);}
+
+/* RokSprocket - Lists */
+.sprocket-lists .indicator, .sprocket-lists .arrow {background-color: #555;color: #fff;}
+.sprocket-lists-pagination li {background-color: #999;}
+.sprocket-lists .arrow {background-image: url(../images/dark/sprocket-lists.png);}
+.dark-block .sprocket-lists .indicator, .dark-block .sprocket-lists .arrow, .dark-block .sprocket-lists-pagination li {background-color: #111;}
+.sprocket-lists-item .readon:hover span {color: #dedede;}
+
+/* RokSprocket - Headlines */
+.sprocket-headlines-item a {color: #fff;}
+.sprocket-headlines-navigation .arrow {background-color: #555;background-image: url(../images/dark/sprocket-headlines.png);}
+.dark-block .sprocket-headlines-navigation .arrow {background-color: #111;}
+
+/* RokSprocket - Mosaic */
+.sprocket-mosaic-text-container {border: 10px solid rgba(0,0,0,0.2);color: #fff;text-shadow: 1px 1px 1px rgba(0,0,0,0.5);background-color: rgba(0,0,0,0.8);}
+.sprocket-mosaic-item .sprocket-viewicon {border: 1px solid rgba(225,225,225,0.1);background: #494949 url(../images/dark/readon.png) scroll 0 -1px;box-shadow: 0 0 0 1px rgba(0,0,0,0.2);}
+.sprocket-mosaic-item .sprocket-viewicon span {background: url(../images/dark/viewicon.png) no-repeat scroll 8px 8px;}
+.sprocket-mosaic-order li:hover, .sprocket-mosaic-filter li:hover {color: #fff;}
+.sprocket-noimage.sprocket-mosaic-text-container {background-color: transparent;border: none;}
+.sprocket-noimage .sprocket-viewicon {border: 1px solid rgba(0,0,0,0.9);}
+
+/* Module Backgrounds - DARK */
+/* RokSprocket - Mosaic */
+.main-bg-chrome .sprocket-mosaic-item, .main-bg-wall .sprocket-mosaic-item, .main-bg-lines .sprocket-mosaic-item, .main-bg-diamond .sprocket-mosaic-item, .main-bg-sphere .sprocket-mosaic-item, .main-bg-none .sprocket-mosaic-item {background-color: #333;}
+.main-bg-chrome .sprocket-noimage.sprocket-mosaic-text-container, .main-bg-chrome .sprocket-mosaic-title a, .main-bg-wall .sprocket-noimage.sprocket-mosaic-text-container, .main-bg-wall .sprocket-mosaic-title a, .main-bg-lines .sprocket-noimage.sprocket-mosaic-text-container, .main-bg-lines .sprocket-mosaic-title a, .main-bg-diamond .sprocket-noimage.sprocket-mosaic-text-container, .main-bg-diamond .sprocket-mosaic-title a, .main-bg-sphere .sprocket-noimage.sprocket-mosaic-text-container, .main-bg-sphere .sprocket-mosaic-title a, .main-bg-none .sprocket-noimage.sprocket-mosaic-text-container, .main-bg-none .sprocket-mosaic-title a {color: #DEDEDE;}
+.main-bg-chrome .sprocket-mosaic-title, .main-bg-wall .sprocket-mosaic-title, .main-bg-lines .sprocket-mosaic-title, .main-bg-diamond .sprocket-mosaic-title, .main-bg-sphere .sprocket-mosaic-title, .main-bg-none .sprocket-mosaic-title {border-bottom: 1px dashed #555;}
+.main-bg-chrome .sprocket-mosaic-order li, .main-bg-chrome .sprocket-mosaic-filter li, .main-bg-wall .sprocket-mosaic-order li, .main-bg-wall .sprocket-mosaic-filter li, .main-bg-lines .sprocket-mosaic-order li, .main-bg-lines .sprocket-mosaic-filter li, .main-bg-diamond .sprocket-mosaic-order li, .main-bg-diamond .sprocket-mosaic-filter li, .main-bg-sphere .sprocket-mosaic-order li, .main-bg-sphere .sprocket-mosaic-filter li, .main-bg-none .sprocket-mosaic-order li, .main-bg-none .sprocket-mosaic-filter li {color: #8D8A8C;background-color: #333;}
+.main-bg-chrome .sprocket-mosaic-order li.active, .main-bg-chrome .sprocket-mosaic-filter li.active, .main-bg-chrome .sprocket-mosaic-order li:hover, .main-bg-chrome .sprocket-mosaic-filter li:hover, .main-bg-wall .sprocket-mosaic-order li.active, .main-bg-wall .sprocket-mosaic-filter li.active, .main-bg-wall .sprocket-mosaic-order li:hover, .main-bg-wall .sprocket-mosaic-filter li:hover, .main-bg-lines .sprocket-mosaic-order li.active, .main-bg-lines .sprocket-mosaic-filter li.active, .main-bg-lines .sprocket-mosaic-order li:hover, .main-bg-lines .sprocket-mosaic-filter li:hover, .main-bg-diamond .sprocket-mosaic-order li.active, .main-bg-diamond .sprocket-mosaic-filter li.active, .main-bg-diamond .sprocket-mosaic-order li:hover, .main-bg-diamond .sprocket-mosaic-filter li:hover, .main-bg-sphere .sprocket-mosaic-order li.active, .main-bg-sphere .sprocket-mosaic-filter li.active, .main-bg-sphere .sprocket-mosaic-order li:hover, .main-bg-sphere .sprocket-mosaic-filter li:hover, .main-bg-none .sprocket-mosaic-order li.active, .main-bg-none .sprocket-mosaic-filter li.active, .main-bg-none .sprocket-mosaic-order li:hover, .main-bg-none .sprocket-mosaic-filter li:hover {color: #fff;background-color: #333;}
+.main-bg-chrome .sprocket-mosaic-loadmore, .main-bg-wall .sprocket-mosaic-loadmore, .main-bg-lines .sprocket-mosaic-loadmore, .main-bg-diamond .sprocket-mosaic-loadmore, .main-bg-sphere .sprocket-mosaic-loadmore, .main-bg-none .sprocket-mosaic-loadmore {background-color: #333;}
+.main-bg-chrome .sprocket-mosaic-header, .main-bg-wall .sprocket-mosaic-header, .main-bg-lines .sprocket-mosaic-header, .main-bg-diamond .sprocket-mosaic-header, .main-bg-sphere .sprocket-mosaic-header, .main-bg-none .sprocket-mosaic-header {background: rgba(85,85,85,0.35);}
+.main-bg-chrome .sprocket-mosaic, .main-bg-wall .sprocket-mosaic, .main-bg-lines .sprocket-mosaic, .main-bg-diamond .sprocket-mosaic, .main-bg-sphere .sprocket-mosaic, .main-bg-none .sprocket-mosaic {color: #DEDEDE;}
+.main-bg-chrome .sprocket-mosaic-tags li, .main-bg-wall .sprocket-mosaic-tags li, .main-bg-lines .sprocket-mosaic-tags li, .main-bg-diamond .sprocket-mosaic-tags li, .main-bg-sphere .sprocket-mosaic-tags li, .main-bg-none .sprocket-mosaic-tags li {background: #444;}
+
+/* RokSprocket - Tabs */
+.main-bg-chrome .sprocket-tabs .sprocket-tabs-nav, .main-bg-wall .sprocket-tabs .sprocket-tabs-nav, .main-bg-lines .sprocket-tabs .sprocket-tabs-nav, .main-bg-diamond .sprocket-tabs .sprocket-tabs-nav, .main-bg-sphere .sprocket-tabs .sprocket-tabs-nav, .main-bg-none .sprocket-tabs .sprocket-tabs-nav {background: rgba(85,85,85,0.4);}
+.main-bg-chrome .sprocket-tabs-panels, .main-bg-wall .sprocket-tabs-panels, .main-bg-lines .sprocket-tabs-panels, .main-bg-diamond .sprocket-tabs-panels, .main-bg-sphere .sprocket-tabs-panels, .main-bg-none .sprocket-tabs-panels {background: #333;}
+.main-bg-chrome .sprocket-tabs .sprocket-tabs-nav li, .main-bg-wall .sprocket-tabs .sprocket-tabs-nav li, .main-bg-lines .sprocket-tabs .sprocket-tabs-nav li, .main-bg-diamond .sprocket-tabs .sprocket-tabs-nav li, .main-bg-sphere .sprocket-tabs .sprocket-tabs-nav li, .main-bg-none .sprocket-tabs .sprocket-tabs-nav li {background: #333;opacity: 0.6;}
+.main-bg-chrome .sprocket-tabs .sprocket-tabs-nav li.active, .main-bg-chrome .sprocket-tabs .sprocket-tabs-nav li:hover, .main-bg-wall .sprocket-tabs .sprocket-tabs-nav li.active, .main-bg-wall .sprocket-tabs .sprocket-tabs-nav li:hover, .main-bg-lines .sprocket-tabs .sprocket-tabs-nav li.active, .main-bg-lines .sprocket-tabs .sprocket-tabs-nav li:hover, .main-bg-diamond .sprocket-tabs .sprocket-tabs-nav li.active, .main-bg-diamond .sprocket-tabs .sprocket-tabs-nav li:hover, .main-bg-sphere .sprocket-tabs .sprocket-tabs-nav li.active, .main-bg-sphere .sprocket-tabs .sprocket-tabs-nav li:hover, .main-bg-none .sprocket-tabs .sprocket-tabs-nav li.active, .main-bg-none .sprocket-tabs .sprocket-tabs-nav li:hover {opacity: 1;}
+.main-bg-paper .sprocket-tabs.layout-right .sprocket-tabs-nav li, .main-bg-gray-paper .sprocket-tabs.layout-right .sprocket-tabs-nav li, .main-bg-vintage .sprocket-tabs.layout-right .sprocket-tabs-nav li, .main-bg-guides .sprocket-tabs.layout-right .sprocket-tabs-nav li, .main-bg-grunge .sprocket-tabs.layout-right .sprocket-tabs-nav li, .main-bg-paper .sprocket-tabs.layout-left .sprocket-tabs-nav li, .main-bg-gray-paper .sprocket-tabs.layout-left .sprocket-tabs-nav li, .main-bg-vintage .sprocket-tabs.layout-left .sprocket-tabs-nav li, .main-bg-guides .sprocket-tabs.layout-left .sprocket-tabs-nav li, .main-bg-grunge .sprocket-tabs.layout-left .sprocket-tabs-nav li {background-color: #888;}
+.main-bg-paper .sprocket-tabs.layout-right .sprocket-tabs-nav li.active, .main-bg-gray-paper .sprocket-tabs.layout-right .sprocket-tabs-nav li.active, .main-bg-vintage .sprocket-tabs.layout-right .sprocket-tabs-nav li.active, .main-bg-guides .sprocket-tabs.layout-right .sprocket-tabs-nav li.active, .main-bg-grunge .sprocket-tabs.layout-right .sprocket-tabs-nav li.active, .main-bg-paper .sprocket-tabs.layout-left .sprocket-tabs-nav li.active, .main-bg-gray-paper .sprocket-tabs.layout-left .sprocket-tabs-nav li.active, .main-bg-vintage .sprocket-tabs.layout-left .sprocket-tabs-nav li.active, .main-bg-guides .sprocket-tabs.layout-left .sprocket-tabs-nav li.active, .main-bg-grunge .sprocket-tabs.layout-left .sprocket-tabs-nav li.active {background-color: #333;}
+
+/* Horiz Menu */
+.main-bg-chrome .horizmenu ul.menu li a, .main-bg-wall .horizmenu ul.menu li a, .main-bg-lines .horizmenu ul.menu li a, .main-bg-diamond .horizmenu ul.menu li a, .main-bg-sphere .horizmenu ul.menu li a, .main-bg-none .horizmenu ul.menu li a, .main-bg-chrome .horizmenu ul.menu li .item, .main-bg-wall .horizmenu ul.menu li .item, .main-bg-lines .horizmenu ul.menu li .item, .main-bg-diamond .horizmenu ul.menu li .item, .main-bg-sphere .horizmenu ul.menu li .item, .main-bg-none .horizmenu ul.menu li .item, .main-bg-chrome .horizmenu ul.menu li .separator, .main-bg-wall .horizmenu ul.menu li .separator, .main-bg-lines .horizmenu ul.menu li .separator, .main-bg-diamond .horizmenu ul.menu li .separator, .main-bg-sphere .horizmenu ul.menu li .separator, .main-bg-none .horizmenu ul.menu li .separator {color: #bbb;}
+.main-bg-chrome .horizmenu ul.menu li a:hover, .main-bg-wall .horizmenu ul.menu li a:hover, .main-bg-lines .horizmenu ul.menu li a:hover, .main-bg-diamond .horizmenu ul.menu li a:hover, .main-bg-sphere .horizmenu ul.menu li a:hover, .main-bg-none .horizmenu ul.menu li a:hover, .main-bg-chrome .horizmenu ul.menu li .item:hover, .main-bg-wall .horizmenu ul.menu li .item:hover, .main-bg-lines .horizmenu ul.menu li .item:hover, .main-bg-diamond .horizmenu ul.menu li .item:hover, .main-bg-sphere .horizmenu ul.menu li .item:hover, .main-bg-none .horizmenu ul.menu li .item:hover, .main-bg-chrome .horizmenu ul.menu li .separator:hover, .main-bg-wall .horizmenu ul.menu li .separator:hover, .main-bg-lines .horizmenu ul.menu li .separator:hover, .main-bg-diamond .horizmenu ul.menu li .separator:hover, .main-bg-sphere .horizmenu ul.menu li .separator:hover, .main-bg-none .horizmenu ul.menu li .separator:hover, .main-bg-chrome .horizmenu ul.menu li.active a, .main-bg-wall .horizmenu ul.menu li.active a, .main-bg-lines .horizmenu ul.menu li.active a, .main-bg-diamond .horizmenu ul.menu li.active a, .main-bg-sphere .horizmenu ul.menu li.active a, .main-bg-none .horizmenu ul.menu li.active a, .main-bg-chrome .horizmenu ul.menu li.active .item, .main-bg-wall .horizmenu ul.menu li.active .item, .main-bg-lines .horizmenu ul.menu li.active .item, .main-bg-diamond .horizmenu ul.menu li.active .item, .main-bg-sphere .horizmenu ul.menu li.active .item, .main-bg-none .horizmenu ul.menu li.active .item {color: #fff;}
+.main-bg-chrome .horizmenu .module-content ul.menu > li, .main-bg-wall .horizmenu .module-content ul.menu > li, .main-bg-lines .horizmenu .module-content ul.menu > li, .main-bg-diamond .horizmenu .module-content ul.menu > li, .main-bg-sphere .horizmenu .module-content ul.menu > li, .main-bg-none .horizmenu .module-content ul.menu > li {background: url(../images/dark/arrows.png) no-repeat scroll 93% -348px;}
+
+/* Mod Variations */
+.main-bg-chrome .box1, .main-bg-wall .box1, .main-bg-lines .box1, .main-bg-diamond .box1, .main-bg-sphere .box1, .main-bg-none .box1, .main-bg-chrome .box1 a:hover, .main-bg-wall .box1 a:hover, .main-bg-lines .box1 a:hover, .main-bg-diamond .box1 a:hover, .main-bg-sphere .box1 a:hover, .main-bg-none .box1 a:hover {color: #dedede;}
+.main-bg-chrome .ribbon, .main-bg-wall .ribbon, .main-bg-lines .ribbon, .main-bg-diamond .ribbon, .main-bg-sphere .ribbon, .main-bg-none .ribbon, .main-bg-chrome .ribbon span, .main-bg-wall .ribbon span, .main-bg-lines .ribbon span, .main-bg-diamond .ribbon span, .main-bg-sphere .ribbon span, .main-bg-none .ribbon span {color: #dedede;text-shadow: 1px 2px 0 rgba(0, 0, 0, 0.8);background-image: url(../images/dark/ribbon.png);}
+.main-bg-chrome #rt-copyright, .main-bg-wall #rt-copyright, .main-bg-lines #rt-copyright, .main-bg-diamond #rt-copyright, .main-bg-sphere #rt-copyright, .main-bg-none #rt-copyright, .main-bg-chrome #rt-feature, .main-bg-wall #rt-feature, .main-bg-lines #rt-feature, .main-bg-diamond #rt-feature, .main-bg-sphere #rt-feature, .main-bg-none #rt-feature {color: #dedede;}
+.main-bg-chrome #rt-copyright a:hover, .main-bg-wall #rt-copyright a:hover, .main-bg-lines #rt-copyright a:hover, .main-bg-diamond #rt-copyright a:hover, .main-bg-sphere #rt-copyright a:hover, .main-bg-none #rt-copyright a:hover, .main-bg-chrome #rt-feature a:hover, .main-bg-wall #rt-feature a:hover, .main-bg-lines #rt-feature a:hover, .main-bg-diamond #rt-feature a:hover, .main-bg-sphere #rt-feature a:hover, .main-bg-none #rt-feature a:hover {color: #dedede;}
+.main-bg-chrome #rocket, .main-bg-wall #rocket, .main-bg-lines #rocket, .main-bg-diamond #rocket, .main-bg-sphere #rocket, .main-bg-none #rocket {background: url(../images/dark/rocket.png) no-repeat;}
+
+/* Module Backgrounds - LIGHT */
+/* RokSprocket - Mosaic */
+.main-bg-paper .sprocket-mosaic-item, .main-bg-gray-paper .sprocket-mosaic-item, .main-bg-vintage .sprocket-mosaic-item, .main-bg-guides .sprocket-mosaic-item, .main-bg-grunge .sprocket-mosaic-item {background-color: #333;}
+.main-bg-paper .sprocket-noimage.sprocket-mosaic-text-container, .main-bg-paper .sprocket-mosaic-title a, .main-bg-gray-paper .sprocket-noimage.sprocket-mosaic-text-container, .main-bg-gray-paper .sprocket-mosaic-title a, .main-bg-vintage .sprocket-noimage.sprocket-mosaic-text-container, .main-bg-vintage .sprocket-mosaic-title a, .main-bg-guides .sprocket-noimage.sprocket-mosaic-text-container, .main-bg-guides .sprocket-mosaic-title a, .main-bg-grunge .sprocket-noimage.sprocket-mosaic-text-container, .main-bg-grunge .sprocket-mosaic-title a {color: #DEDEDE;}
+.main-bg-paper .sprocket-mosaic-title, .main-bg-gray-paper .sprocket-mosaic-title, .main-bg-vintage .sprocket-mosaic-title, .main-bg-guides .sprocket-mosaic-title, .main-bg-grunge .sprocket-mosaic-title {border-bottom: 1px dashed #555;}
+.main-bg-paper .sprocket-mosaic-order li, .main-bg-paper .sprocket-mosaic-filter li, .main-bg-gray-paper .sprocket-mosaic-order li, .main-bg-gray-paper .sprocket-mosaic-filter li, .main-bg-vintage .sprocket-mosaic-order li, .main-bg-vintage .sprocket-mosaic-filter li, .main-bg-guides .sprocket-mosaic-order li, .main-bg-guides .sprocket-mosaic-filter li, .main-bg-grunge .sprocket-mosaic-order li, .main-bg-grunge .sprocket-mosaic-filter li {color: #313439;background: #fff;}
+.main-bg-paper .sprocket-mosaic-order li.active, .main-bg-paper .sprocket-mosaic-filter li.active, .main-bg-paper .sprocket-mosaic-order li:hover, .main-bg-paper .sprocket-mosaic-filter li:hover, .main-bg-gray-paper .sprocket-mosaic-order li.active, .main-bg-gray-paper .sprocket-mosaic-filter li.active, .main-bg-gray-paper .sprocket-mosaic-order li:hover, .main-bg-gray-paper .sprocket-mosaic-filter li:hover, .main-bg-vintage .sprocket-mosaic-order li.active, .main-bg-vintage .sprocket-mosaic-filter li.active, .main-bg-vintage .sprocket-mosaic-order li:hover, .main-bg-vintage .sprocket-mosaic-filter li:hover, .main-bg-guides .sprocket-mosaic-order li.active, .main-bg-guides .sprocket-mosaic-filter li.active, .main-bg-guides .sprocket-mosaic-order li:hover, .main-bg-guides .sprocket-mosaic-filter li:hover, .main-bg-grunge .sprocket-mosaic-order li.active, .main-bg-grunge .sprocket-mosaic-filter li.active, .main-bg-grunge .sprocket-mosaic-order li:hover, .main-bg-grunge .sprocket-mosaic-filter li:hover {color: #DEDEDE;background: #333;}
+.main-bg-paper .sprocket-mosaic-loadmore, .main-bg-gray-paper .sprocket-mosaic-loadmore, .main-bg-vintage .sprocket-mosaic-loadmore, .main-bg-guides .sprocket-mosaic-loadmore, .main-bg-grunge .sprocket-mosaic-loadmore {background-color: #333;}
+.main-bg-paper .sprocket-mosaic-header, .main-bg-gray-paper .sprocket-mosaic-header, .main-bg-vintage .sprocket-mosaic-header, .main-bg-guides .sprocket-mosaic-header, .main-bg-grunge .sprocket-mosaic-header {background: rgba(255,255,255,0.35);}
+.main-bg-paper .sprocket-mosaic, .main-bg-gray-paper .sprocket-mosaic, .main-bg-vintage .sprocket-mosaic, .main-bg-guides .sprocket-mosaic, .main-bg-grunge .sprocket-mosaic {color: #DEDEDE;}
+.main-bg-paper .sprocket-mosaic-tags li, .main-bg-gray-paper .sprocket-mosaic-tags li, .main-bg-vintage .sprocket-mosaic-tags li, .main-bg-guides .sprocket-mosaic-tags li, .main-bg-grunge .sprocket-mosaic-tags li {background: #444;}
+
+/* RokSprocket - Tabs */
+.main-bg-paper .sprocket-tabs .sprocket-tabs-nav, .main-bg-gray-paper .sprocket-tabs .sprocket-tabs-nav, .main-bg-vintage .sprocket-tabs .sprocket-tabs-nav, .main-bg-guides .sprocket-tabs .sprocket-tabs-nav, .main-bg-grunge .sprocket-tabs .sprocket-tabs-nav {background: rgba(255,255,255,0.4);}
+.main-bg-paper .sprocket-tabs .sprocket-tabs-nav, .main-bg-gray-paper .sprocket-tabs .sprocket-tabs-nav, .main-bg-vintage .sprocket-tabs .sprocket-tabs-nav, .main-bg-guides .sprocket-tabs .sprocket-tabs-nav, .main-bg-grunge .sprocket-tabs .sprocket-tabs-nav {background: rgba(255,255,255,0.4);}
+.main-bg-paper .sprocket-tabs, .main-bg-gray-paper .sprocket-tabs, .main-bg-vintage .sprocket-tabs, .main-bg-guides .sprocket-tabs, .main-bg-grunge .sprocket-tabs {color: #DEDEDE;}
+.main-bg-paper .sprocket-tabs-panels, .main-bg-gray-paper .sprocket-tabs-panels, .main-bg-vintage .sprocket-tabs-panels, .main-bg-guides .sprocket-tabs-panels, .main-bg-grunge .sprocket-tabs-panels {background: #333;}
+.main-bg-paper .sprocket-tabs .sprocket-tabs-nav li, .main-bg-gray-paper .sprocket-tabs .sprocket-tabs-nav li, .main-bg-vintage .sprocket-tabs .sprocket-tabs-nav li, .main-bg-guides .sprocket-tabs .sprocket-tabs-nav li, .main-bg-grunge .sprocket-tabs .sprocket-tabs-nav li {background: #333;opacity: 0.6;}
+.main-bg-paper .sprocket-tabs .sprocket-tabs-nav li.active, .main-bg-paper .sprocket-tabs .sprocket-tabs-nav li:hover, .main-bg-gray-paper .sprocket-tabs .sprocket-tabs-nav li.active, .main-bg-gray-paper .sprocket-tabs .sprocket-tabs-nav li:hover, .main-bg-vintage .sprocket-tabs .sprocket-tabs-nav li.active, .main-bg-vintage .sprocket-tabs .sprocket-tabs-nav li:hover, .main-bg-guides .sprocket-tabs .sprocket-tabs-nav li.active, .main-bg-guides .sprocket-tabs .sprocket-tabs-nav li:hover, .main-bg-grunge .sprocket-tabs .sprocket-tabs-nav li.active, .main-bg-grunge .sprocket-tabs .sprocket-tabs-nav li:hover {opacity: 1;}
+
+/* Horiz Menu */
+.main-bg-paper .horizmenu ul.menu li a, .main-bg-gray-paper .horizmenu ul.menu li a, .main-bg-vintage .horizmenu ul.menu li a, .main-bg-guides .horizmenu ul.menu li a, .main-bg-grunge .horizmenu ul.menu li a, .main-bg-paper .horizmenu ul.menu li .item, .main-bg-gray-paper .horizmenu ul.menu li .item, .main-bg-vintage .horizmenu ul.menu li .item, .main-bg-guides .horizmenu ul.menu li .item, .main-bg-grunge .horizmenu ul.menu li .item, .main-bg-paper .horizmenu ul.menu li .separator, .main-bg-gray-paper .horizmenu ul.menu li .separator, .main-bg-vintage .horizmenu ul.menu li .separator, .main-bg-guides .horizmenu ul.menu li .separator, .main-bg-grunge .horizmenu ul.menu li .separator {color: #000;}
+.main-bg-paper .horizmenu ul.menu li a:hover, .main-bg-gray-paper .horizmenu ul.menu li a:hover, .main-bg-vintage .horizmenu ul.menu li a:hover, .main-bg-guides .horizmenu ul.menu li a:hover, .main-bg-grunge .horizmenu ul.menu li a:hover, .main-bg-paper .horizmenu ul.menu li .item:hover, .main-bg-gray-paper .horizmenu ul.menu li .item:hover, .main-bg-vintage .horizmenu ul.menu li .item:hover, .main-bg-guides .horizmenu ul.menu li .item:hover, .main-bg-grunge .horizmenu ul.menu li .item:hover, .horizmenu ul.menu li .separator:hover, .main-bg-paper .horizmenu ul.menu li.active a, .main-bg-gray-paper .horizmenu ul.menu li.active a, .main-bg-vintage .horizmenu ul.menu li.active a, .main-bg-guides .horizmenu ul.menu li.active a, .main-bg-grunge .horizmenu ul.menu li.active a, .main-bg-paper .horizmenu ul.menu li.active .item, .main-bg-gray-paper .horizmenu ul.menu li.active .item, .main-bg-vintage .horizmenu ul.menu li.active .item, .main-bg-guides .horizmenu ul.menu li.active .item, .main-bg-grunge .horizmenu ul.menu li.active .item {color: #666;}
+.main-bg-paper .horizmenu .module-content ul.menu > li, .main-bg-gray-paper .horizmenu .module-content ul.menu > li, .main-bg-vintage .horizmenu .module-content ul.menu > li, .main-bg-guides .horizmenu .module-content ul.menu > li, .main-bg-grunge .horizmenu .module-content ul.menu > li {background: url(../images/dark/arrows.png) no-repeat scroll 93% -348px;}
+
+/* Mod Variations */
+.main-bg-paper .box1, .main-bg-gray-paper .box1, .main-bg-vintage .box1, .main-bg-guides .box1, .main-bg-grunge .box1, .main-bg-paper .box1 a:hover, .main-bg-gray-paper .box1 a:hover, .main-bg-vintage .box1 a:hover, .main-bg-guides .box1 a:hover, .main-bg-grunge .box1 a:hover {color: #313439;}
+.main-bg-paper .ribbon, .main-bg-gray-paper .ribbon, .main-bg-vintage .ribbon, .main-bg-guides .ribbon, .main-bg-grunge .ribbon, .main-bg-paper .ribbon span, .main-bg-gray-paper .ribbon span, .main-bg-vintage .ribbon span, .main-bg-guides .ribbon span, .main-bg-grunge .ribbon span {color: #313439;background-image: url(../images/light/ribbon.png);}
+.main-bg-paper #rt-copyright, .main-bg-gray-paper #rt-copyright, .main-bg-vintage #rt-copyright, .main-bg-guides #rt-copyright, .main-bg-grunge #rt-copyright, .main-bg-paper #rt-feature, .main-bg-gray-paper #rt-feature, .main-bg-vintage #rt-feature, .main-bg-guides #rt-feature, .main-bg-grunge #rt-feature {color: #313439;}
+.main-bg-paper #rt-copyright a:hover, .main-bg-gray-paper #rt-copyright a:hover, .main-bg-vintage #rt-copyright a:hover, .main-bg-guides #rt-copyright a:hover, .main-bg-grunge #rt-copyright a:hover, .main-bg-paper #rt-feature a:hover, .main-bg-gray-paper #rt-feature a:hover, .main-bg-vintage #rt-feature a:hover, .main-bg-guides #rt-feature a:hover, .main-bg-grunge #rt-feature a:hover {color: #313439;}
+.main-bg-paper #rocket, .main-bg-gray-paper #rocket, .main-bg-vintage #rocket, .main-bg-guides #rocket, .main-bg-grunge #rocket {background: url(../images/light/rocket.png) no-repeat;}
+.main-bg-paper #rt-feature .box2.rt-block, .main-bg-gray-paper #rt-feature .box2.rt-block, .main-bg-vintage #rt-feature .box2.rt-block, .main-bg-guides #rt-feature .box2.rt-block, .main-bg-grunge #rt-feature .box2.rt-block, .main-bg-paper #rt-feature .box3.rt-block, .main-bg-gray-paper #rt-feature .box3.rt-block, .main-bg-vintage #rt-feature .box3.rt-block, .main-bg-guides #rt-feature .box3.rt-block, .main-bg-grunge #rt-feature .box3.rt-block, .main-bg-paper #rt-feature .box3.rt-block .module-title, .main-bg-gray-paper #rt-feature .box3.rt-block .module-title, .main-bg-vintage #rt-feature .box3.rt-block .module-title, .main-bg-guides #rt-feature .box3.rt-block .module-title, .main-bg-grunge #rt-feature .box3.rt-block .module-title, .main-bg-paper #rt-copyright .box2.rt-block, .main-bg-gray-paper #rt-copyright .box2.rt-block, .main-bg-vintage #rt-copyright .box2.rt-block, .main-bg-guides #rt-copyright .box2.rt-block, .main-bg-grunge #rt-copyright .box2.rt-block, .main-bg-paper #rt-copyright .box3.rt-block, .main-bg-gray-paper #rt-copyright .box3.rt-block, .main-bg-vintage #rt-copyright .box3.rt-block, .main-bg-guides #rt-copyright .box3.rt-block, .main-bg-grunge #rt-copyright .box3.rt-block, .main-bg-paper #rt-copyright .box3.rt-block .module-title, .main-bg-gray-paper #rt-copyright .box3.rt-block .module-title, .main-bg-vintage #rt-copyright .box3.rt-block .module-title, .main-bg-guides #rt-copyright .box3.rt-block .module-title, .main-bg-grunge #rt-copyright .box3.rt-block .module-title {color: #313439;}
+
+/* RokSprocket - Features - Showcase */
+.sprocket-features-pagination li {background-color: rgba(0, 0, 0, 0.4);}
+.sprocket-features-pagination .active {background-color: #fff;box-shadow: 0 0 2px rgba(0,0,0,0.8);}
+.sprocket-features-arrows .arrow {background-color: rgba(0, 0, 0, 0.4);}
+.sprocket-features-arrows .arrow:hover {background-image: url(../images/dark/sprocket-showcase.png);border-color: rgba(225,225,225,0.5);box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.6);}
+.sprocket-features-arrows .arrow span {background-image: url(../images/dark/sprocket-showcase.png);}
+.sprocket-features-title a {color: #fff;}
+
+/* RokAjaxSearch */
+#rokajaxsearch .inputbox, .rokajaxsearch input.inputbox:focus {box-shadow: inset 0 1px 2px rgba(0,0,0,0.6), 0 1px 3px rgba(0,0,0,0.5);background-image: url(../images/dark/search-controls.png);}
+.roksearch_results #roksearch_link {background: url(../images/dark/search-controls.png) 0 -50px no-repeat;}
+#roksearch_results .arrow-left {background: url(../images/dark/search-controls.png) 0 2px no-repeat;}
+#roksearch_results .arrow-left-disabled, #roksearch_results .arrow-right-disabled {background: url(../images/dark/search-controls.png) 0 -33px no-repeat;}
+#roksearch_results .arrow-right {background: url(../images/dark/search-controls.png) 0 -15px no-repeat;}
+#roksearch_results {background-color: #F3F3F3;box-shadow: 0 1px 4px rgba(0,0,0,0.2);border: 1px solid #fff;}
+#roksearch_results .roksearch_header, #roksearch_results .roksearch_row_btm, .roksearch_result_wrapper1 {border-bottom: 1px solid #CFCFCF;}
+.roksearch_result_wrapper1 {border-top: 1px solid #fff;}
+.roksearch_result_wrapper1:hover {background-color: #E0E0E0;}
+
+/* To Top - Feature */
+.rt-totop {background-color: #292929;background-image: url(../images/dark/sprocket-headlines.png);}
+
+/* Social Icons */
+.rt-social-buttons #rt-twitter-btn .rt-social-icon, .rt-social-buttons #rt-facebook-btn .rt-social-icon, .rt-social-buttons #rt-google-btn .rt-social-icon, .rt-social-buttons #rt-rss-btn .rt-social-icon {background-color: #555;background-image: url(../images/dark/social-icons.png);}
+.rt-social-buttons #rt-facebook-btn:hover .rt-social-icon {background-color: #3B5998;}
+.rt-social-buttons #rt-twitter-btn:hover .rt-social-icon {background-color: #62BDB2;}
+.rt-social-buttons #rt-google-btn:hover .rt-social-icon {background-color: #DB4A39;}
+.rt-social-buttons #rt-rss-btn:hover .rt-social-icon {background-color: #FF8B0F;}
+.rt-social-buttons .rt-social-text {color: #fff;}
+
+/* Popup/Login Module Feature */
+#rt-popup .rt-block, #rt-popuplogin .rt-block, #rt-popup .rt-block a:hover, #rt-popuplogin .rt-block a:hover {background-color: transparent;color: #313439;}
+
+/* Font Sizer - Feature */
+.rt-fontsizer-buttons .button {background-image: url(../images/dark/nav-arrows.png);}
+
+/* Extra's */
+.tip-wrap {border: 1px solid #222;background-color: #555;box-shadow: 0 1px 4px rgba(0,0,0,0.2);}
+#rocket {background: url(../images/dark/rocket.png) no-repeat;}
+.rt-menu-mobile select {background: #292929;color: #fff;border: 1px solid #666;font-size: 16px;}
