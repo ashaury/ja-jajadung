@@ -113,7 +113,7 @@
 /* Custom stuff */
 .sprocket-mosaic {margin: -20px -21px;}
 .sprocket-mosaic-item .sprocket-mosaic-title, .sprocket-mosaic-item .sprocket-mosaic-info {text-transform: none;}
-.sprocket-mosaic-item .sprocket-mosaic-title a {line-height: 1.2em;}
+.sprocket-mosaic-item .sprocket-mosaic-title a {line-height: 1.2em; font-size:90%;color:rgb(23, 105, 255); }
 .sprocket-mosaic-item .sprocket-mosaic-infos {font-size: 13px;font-weight: bold;margin: 8px 0;}
 .sprocket-mosaic-item .sprocket-mosaic-text {margin: 0 0 15px 0;display: block;font-size: 110%;line-height: 1.4em;}
 .sprocket-mosaic-item {position: relative; border-radius:3px;}

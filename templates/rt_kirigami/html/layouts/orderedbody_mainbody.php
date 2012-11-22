@@ -68,7 +68,7 @@ class GantryLayoutOrderedBody_MainBody extends GantryLayout {
                         <?php if ($display_component) : ?>
                     	<div class="rt-block component-block">
             				<div class="component-content">
-            					<?php //<jdoc:include type="component" /> ?>
+            					<jdoc:include type="component" />
                                 <div class="clear"></div>
             				</div>
                     		<div class="clear"></div>
